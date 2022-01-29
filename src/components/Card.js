@@ -1,13 +1,15 @@
 import React from "react";
-import { H2Style, GralButton, ImgStyle } from "./BasicTagsStyle";
+import { H2CardStyle, GralAnchor, ImgStyle } from "./BasicTagsStyle";
 import { CardStyle } from "./CardStyle";
 
-const Card = ({name, urlImg}) => {
+const Card = ({ name, urlImg, urlPage }) => {
   return (
     <CardStyle>
-      <H2Style>{name}</H2Style>
+      <H2CardStyle>{name}</H2CardStyle>
       <ImgStyle src={urlImg} alt="img"></ImgStyle>
-      <GralButton>Ingresar</GralButton>
+      <GralAnchor href={urlPage} target="_blank">
+        Ingresar
+      </GralAnchor>
     </CardStyle>
   );
 };
