@@ -9,6 +9,7 @@ const FooterStyle = styled.footer`
   max-width: 100%;
   a {
     padding: 10px;
+    color: ${color.aFooter}
   }
   @media ${device.tablet} {
     flex-direction: row;

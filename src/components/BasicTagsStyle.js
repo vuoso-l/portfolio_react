@@ -6,6 +6,7 @@ export const H1Style = styled.h1`
   text-shadow: 4px 4px 8px grey;
   font-size: 28px;
   text-align: center;
+  color: ${color.titleHeader};
   @media ${device.tablet} {
     font-size: 34px;
   }
@@ -18,6 +19,7 @@ export const H2Style = styled.h2`
   text-shadow: 2px 2px 4px grey;
   font-size: 24px;
   text-align: center;
+  color: ${color.titleHeader};
   @media ${device.tablet} {
     font-size: 30px;
   }
@@ -26,16 +28,22 @@ export const H2Style = styled.h2`
   }
 `;
 
+export const H2CardStyle = styled(H2Style)`
+  color: ${color.titleCard};
+`;
+
 export const H4Style = styled.h4`
-  font-size: 16px;
+  text-shadow: 2px 2px 2px grey;
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
   padding-bottom: 10px;
+  color: ${color.titleHeader};
   @media ${device.tablet} {
-    font-size: 20px;
+    font-size: 24px;
   }
   @media ${device.laptop} {
-    font-size: 22px;
+    font-size: 26px;
   }
 `;
 
@@ -60,17 +68,19 @@ export const ElementCardImg = styled(ImgStyle)`
   }
 `;
 
-export const GralButton = styled.button`
+export const GralAnchor = styled.a`
   border: 1px solid;
   border-radius: 10px;
   padding: 5px 15px;
   margin: 1px 0;
-  color: white;
-  background-color: black;
+  color: ${color.button};
+  background-color: aliceblue;
   font-size: 14px;
   text-align: center;
   &:hover {
     cursor: pointer;
+    background-color: grey;
+    color: ${color.buttonHover}; 
   }
   @media ${device.tablet} {
     font-size: 16px;

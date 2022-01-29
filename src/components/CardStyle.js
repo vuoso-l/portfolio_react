@@ -14,7 +14,7 @@ export const CardStyle = styled.section`
   div {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 90%;
   }
   @media ${device.mobileM} {
     width: 80%;

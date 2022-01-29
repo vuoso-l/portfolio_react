@@ -7,13 +7,6 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     }
 
-    main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px 0px;  
-    }
-
     img {
     max-width: 100%;
     }
