@@ -6,7 +6,6 @@ const Footer = () => {
   return (
     <FooterStyle>
       <a
-        class="redSocial1"
         href="www.linkedin.com/in/vuoso-l"
         target="_blank"
         rel="noreferrer"
@@ -14,7 +13,6 @@ const Footer = () => {
         {imgLinkedin} LinkedIn
       </a>
       <a
-        class="redSocial2"
         href="https://github.com/vuoso-l/"
         target="_blank"
         rel="noreferrer"
