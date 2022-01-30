@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <FooterStyle>
       <a
-        href="www.linkedin.com/in/vuoso-l"
+        href="https://www.linkedin.com/in/vuoso-l/"
         target="_blank"
         rel="noreferrer"
       >
