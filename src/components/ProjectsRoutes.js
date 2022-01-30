@@ -12,10 +12,10 @@ const ProjectsRoutes = () => {
     <div>
       <Routes>
         <Route path="/portfolio_react/" element={<Home />} />
-        <Route path="/portfolio_react/proyectos-api" element={<ApiProjects />} />
-        <Route path="/portfolio_react/proyectos-react" element={<ReactProjects />} />
-        <Route path="/portfolio_react/proyectos-estaticos" element={<StaticProjects />} />
-        <Route path="/portfolio_react/proyectos-dinamicos" element={<VanillaJsProjects />} />
+        <Route path="/proyectos-api" element={<ApiProjects />} />
+        <Route path="/proyectos-react" element={<ReactProjects />} />
+        <Route path="/proyectos-estaticos" element={<StaticProjects />} />
+        <Route path="/proyectos-dinamicos" element={<VanillaJsProjects />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
     </div>
