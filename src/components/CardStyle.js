@@ -4,8 +4,7 @@ import { displayFlex } from "../styleAux/theme";
 import { color } from "../styleAux/theme";
 
 export const CardStyle = styled.section`
-  ${displayFlex("", "column", "center", "center")};
-  display: ${({ isOpen }) => (isOpen ? "none" : "flex")};
+  ${displayFlex("flex", "column", "center", "center")};
   width: 90%;
   height: auto;
   padding: 15px;

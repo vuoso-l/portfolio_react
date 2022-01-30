@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { device } from "../styleAux/deviceSize";
 import { color } from "../styleAux/theme";
+import { displayFlex } from "../styleAux/theme";
 
 export const H1Style = styled.h1`
   text-shadow: 4px 4px 8px grey;
@@ -16,7 +17,7 @@ export const H1Style = styled.h1`
 `;
 
 export const H2Style = styled.h2`
-  text-shadow: 2px 2px 4px grey;
+  text-shadow: 4px 4px 4px grey;
   font-size: 24px;
   text-align: center;
   color: ${color.titleHeader};
@@ -33,7 +34,7 @@ export const H2CardStyle = styled(H2Style)`
 `;
 
 export const H4Style = styled.h4`
-  text-shadow: 2px 2px 2px grey;
+  text-shadow: 4px 4px 4px grey;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
@@ -65,6 +66,14 @@ export const ImgStyle = styled.img`
 export const ElementCardImg = styled(ImgStyle)`
   &:hover {
     cursor: pointer;
+  }
+`;
+
+export const CardContainer = styled.div`
+  ${displayFlex("flex", "column", "center", "center")};
+  @media ${device.tablet} {
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 `;
 

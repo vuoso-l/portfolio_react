@@ -1,10 +1,15 @@
 import { createGlobalStyle } from "styled-components";
+import { displayFlex } from "../styleAux/theme";
 
 export const GlobalStyle = createGlobalStyle`
     * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    }
+
+    main {
+        ${displayFlex("flex", "column", "center", "center")};
     }
 
     img {
