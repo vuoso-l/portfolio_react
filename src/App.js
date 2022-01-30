@@ -1,9 +1,9 @@
-import Home from "./pages/Home";
+import ProjectsRoutes from "./components/ProjectsRoutes";
 
 function App() {
   return (
     <div>
-      <Home />
+      <ProjectsRoutes />
     </div>
   );
 }
