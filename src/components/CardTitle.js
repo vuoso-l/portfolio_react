@@ -7,7 +7,7 @@ function CardTitle({title}) {
     return (
       <CardTitleStyle>
         <H2CardStyle>{title}</H2CardStyle>
-        <Link className="link" to="/">Regresar a Home</Link>
+        <Link className="link" to="/portfolio_react/">Regresar a Home</Link>
       </CardTitleStyle>
     );
   }
