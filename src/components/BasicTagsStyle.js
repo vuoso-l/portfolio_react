@@ -38,7 +38,8 @@ export const H2Style = styled.h2`
 `;
 
 export const H2CardStyle = styled(H2Style)`
-  color: ${color.titleCard};
+  color: ${({ theme }) =>
+    theme === "light" ? color.titleLightCard : color.titleDarkCard};
 `;
 
 export const H4Style = styled.h4`
@@ -62,6 +63,7 @@ export const H4Style = styled.h4`
 export const ImgStyle = styled.img`
   width: 100%;
   height: 200px;
+  border-radius: 10px;
   @media ${device.mobileM} {
     width: 80%;
   }
@@ -93,8 +95,8 @@ export const GralAnchor = styled.a`
   border-radius: 10px;
   padding: 5px 15px;
   margin: 1px 0;
-  color: ${color.button};
-  background-color: aliceblue;
+  color: ${({ theme }) => (theme === "light" ? color.lightButton : color.darkButton)};
+  background-color: ${({ theme }) => (theme === "light" ? color.bgLightButton : color.bgDarkButton)};
   font-size: 14px;
   text-align: center;
   &:hover {

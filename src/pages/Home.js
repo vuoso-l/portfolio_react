@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import { HomeStyle } from "../components/HomeStyle";
+import { ContainerStyle } from "../components/ContainerStyle";
+import ThemeContext from "../context/ThemeContext";
 
 const Home = () => {
+  const { theme } = useContext(ThemeContext);
+  
   return (
-    <HomeStyle>
+    <ContainerStyle theme={theme}>
       <Header />
       <Card
         name="Proyectos con API propia"
@@ -29,7 +32,7 @@ const Home = () => {
         urlPage="/proyectos-estaticos"
       />
       <Footer />
-    </HomeStyle>
+    </ContainerStyle>
   );
 };
 

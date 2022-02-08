@@ -1,14 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import CardItem from "../components/CardItem";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import { HomeStyle } from "../components/HomeStyle";
+import { ContainerStyle } from "../components/ContainerStyle";
 import CardTitle from "../components/CardTitle";
 import { CardContainer } from "../components/BasicTagsStyle";
+import ThemeContext from "../context/ThemeContext";
 
 const StaticProjects = () => {
+  const { theme } = useContext(ThemeContext);
+
   return (
-    <HomeStyle>
+    <ContainerStyle theme={theme}>
       <Header />
       <main>
         <CardTitle title="Proyectos estáticos" />
@@ -46,7 +49,7 @@ const StaticProjects = () => {
         </CardContainer>
       </main>
       <Footer />
-    </HomeStyle>
+    </ContainerStyle>
   );
 };
 
