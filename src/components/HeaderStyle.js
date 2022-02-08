@@ -14,6 +14,7 @@ export const HeaderStyle = styled.header`
     height: 40px;
     text-align: center;
     font-size: 30px;
+    color: ${({ theme }) => (theme === "light" ? "white" : "yellow")};
     cursor: pointer;
     input {
       opacity: 0;

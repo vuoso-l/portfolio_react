@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import ThemeContext from "../context/ThemeContext";
 import { H2CardStyle } from './BasicTagsStyle';
 import { CardTitleStyle } from './CardTitleStyle';
 
 function CardTitle({title}) {
+  const { theme } = useContext(ThemeContext);
+
     return (
-      <CardTitleStyle>
-        <H2CardStyle>{title}</H2CardStyle>
+      <CardTitleStyle theme={theme}>
+        <H2CardStyle theme={theme}>{title}</H2CardStyle>
         <Link className="link" to="/portfolio_react/">Regresar a Home</Link>
       </CardTitleStyle>
     );

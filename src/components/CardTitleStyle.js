@@ -12,8 +12,8 @@ export const CardTitleStyle = styled.section`
     border-radius: 10px;
     padding: 5px 15px;
     margin: 5px 0;
-    color: ${color.button};
-    background-color: aliceblue;
+    color: ${({ theme }) => (theme === "light" ? color.lightButton : color.darkButton)};
+    background-color: ${({ theme }) => (theme === "light" ? color.bgLightButton : color.bgDarkButton)};
     font-size: 14px;
     text-align: center;
     &:hover {

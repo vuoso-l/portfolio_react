@@ -8,13 +8,13 @@ const Header = () => {
   const { theme, handleTheme } = useContext(ThemeContext);
 
   return (
-    <HeaderStyle>
+    <HeaderStyle theme={theme}>
       <div>
         <H2Style>Lucas Vuoso</H2Style>
         <H4Style>Frontend Web Developer - junior</H4Style>
         <H1Style>Portfolio</H1Style>
       </div>
-      <label theme={theme}>
+      <label>
         {theme === "light" ? imgMoon : imgSun}
         <input type="checkbox" onClick={(e) => handleTheme(e)} value={theme} />
       </label>
