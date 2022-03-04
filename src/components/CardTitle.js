@@ -10,7 +10,7 @@ function CardTitle({title}) {
     return (
       <CardTitleStyle theme={theme}>
         <H2CardStyle theme={theme}>{title}</H2CardStyle>
-        <Link className="link" to="/portfolio_react/">Regresar a Home</Link>
+        <Link className="link" to="/">Regresar a Home</Link>
       </CardTitleStyle>
     );
   }
