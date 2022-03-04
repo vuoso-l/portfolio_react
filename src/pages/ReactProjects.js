@@ -17,9 +17,14 @@ const ReactProjects = () => {
         <CardTitle title="Proyectos React JS" />
         <CardContainer>
           <CardItem
+            name="Challenge Frontend React - Siempre en casa"
+            urlImg="https://res.cloudinary.com/lupevu/image/upload/v1646409109/challenge_frontend-sec_djx70i.jpg"
+            urlPage="https://frontend-challenge-sec.vercel.app/"
+          />
+          <CardItem
             name="Cambio tema claro a oscuro"
             urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460720/theme-dark-light_x9pjcs.jpg"
-            urlPage="https://vuoso-l.github.io/react_render-images//"
+            urlPage="https://vuoso-l.github.io/react_render-images/"
           />
           <CardItem
             name="Renderizado imágenes base"
@@ -37,7 +42,7 @@ const ReactProjects = () => {
             urlPage="https://vuoso-l.github.io/react-buscador_canciones_curso_jonMircha/"
           />
           <CardItem
-            name="Renderizado imágenes con ventana moda"
+            name="Renderizado imágenes con ventana modal"
             urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460719/modal_n9v2o9.jpg"
             urlPage="https://vuoso-l.github.io/react-modals_curso_jonMircha-/"
           />
