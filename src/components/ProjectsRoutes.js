@@ -13,7 +13,7 @@ const ProjectsRoutes = () => {
     <div>
       <ThemeProvider>
         <Routes>
-          <Route path="/portfolio_react/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/proyectos-api" element={<ApiProjects />} />
           <Route path="/proyectos-react" element={<ReactProjects />} />
           <Route path="/proyectos-estaticos" element={<StaticProjects />} />
