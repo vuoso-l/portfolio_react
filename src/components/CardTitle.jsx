@@ -10,7 +10,7 @@ function CardTitle({ title, nav }) {
     <CardTitleStyle theme={theme}>
       <H2CardStyle theme={theme}>{title}</H2CardStyle>
       <Link className="link" to={nav}>
-        Regresar
+        Return
       </Link>
     </CardTitleStyle>
   );

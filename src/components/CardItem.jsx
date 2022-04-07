@@ -15,7 +15,7 @@ const CardItem = ({ name, urlImg, urlPage }) => {
       <H2CardStyle theme={theme}>{name}</H2CardStyle>
       <ImgStyle src={urlImg} alt="img"></ImgStyle>
       <GralAnchor theme={theme} href={urlPage} target="_blank">
-        Ingresar
+        Enter
       </GralAnchor>
     </CardStyle>
   );

@@ -5,16 +5,16 @@ import Header from "../components/Header";
 import ThemeContext from "../context/ThemeContext";
 import { ContainerStyle } from "../stylesComponents/ContainerStyle";
 
-const Formation = () => {
+const Resume = () => {
   const { theme } = useContext(ThemeContext);
   return (
     <ContainerStyle theme={theme}>
       <Header />
-      <CardTitle title="Proyectos" nav="/" />
-      <h2>Formation</h2>
+      <CardTitle title="Resume" nav="/" />
+      <h2>In construction</h2>
       <Footer />
     </ContainerStyle>
   );
 };
 
-export default Formation;
+export default Resume;

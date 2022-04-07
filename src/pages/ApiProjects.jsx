@@ -14,18 +14,15 @@ const ApiProject = () => {
     <ContainerStyle theme={theme}>
       <Header />
       <main>
-        <CardTitle
-          title="Proyectos realizados con API propia"
-          nav="/proyectos"
-        />
+        <CardTitle title="Projects built with our own API" nav="/projects" />
         <CardContainer>
           <CardItem
-            name="Web Manteca & Harina"
+            name="Webpage Manteca & Harina"
             urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460719/logo_m_h_rdgobd.jpg"
             urlPage="https://vuoso-l.github.io/client-manteca-y-harina/"
           />
           <CardItem
-            name="GitHub de la API Rest de M & H"
+            name="GitHub from the API Rest of M & H"
             urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460719/logo_github_uoyzl1.png"
             urlPage="https://github.com/vuoso-l/api-manteca-y-harina/"
           />

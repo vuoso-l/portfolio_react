@@ -19,14 +19,14 @@ const Navegation = () => {
               <Link className="linkBase" to={"/"}>
                 Lucas Vuoso
               </Link>
-              <Link className="link" to={"/proyectos"}>
-                Proyectos
+              <Link className="link" to={"/projects"}>
+                Projects
               </Link>
-              <Link className="link" to={"/contacto"}>
-                Contacto
+              <Link className="link" to={"/contact"}>
+                Contact
               </Link>
-              <Link className="link" to={"/formacion"}>
-                Formación
+              <Link className="link" to={"/resume"}>
+                Resume
               </Link>
             </Nav>
           </Navbar.Collapse>

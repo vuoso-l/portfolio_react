@@ -9,7 +9,7 @@ import Error404 from "../pages/Error404";
 import { ThemeProvider } from "../context/ThemeContext";
 import Home from "../pages/Home";
 import Contact from "../pages/Contact";
-import Formation from "../pages/Formation";
+import Resume from "../pages/Resume";
 
 const ProjectsRoutes = () => {
   return (
@@ -17,13 +17,13 @@ const ProjectsRoutes = () => {
       <ThemeProvider>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/proyectos" element={<Projects />} />
-          <Route path="/contacto" element={<Contact />} />
-          <Route path="/formacion" element={<Formation />} />
-          <Route path="/proyectos-api" element={<ApiProjects />} />
-          <Route path="/proyectos-react" element={<ReactProjects />} />
-          <Route path="/proyectos-estaticos" element={<StaticProjects />} />
-          <Route path="/proyectos-dinamicos" element={<VanillaJsProjects />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/api-projects" element={<ApiProjects />} />
+          <Route path="/react-projects" element={<ReactProjects />} />
+          <Route path="/static-projects" element={<StaticProjects />} />
+          <Route path="/dinamic-projects" element={<VanillaJsProjects />} />
           <Route path="*" element={<Error404 />} />
         </Routes>
       </ThemeProvider>

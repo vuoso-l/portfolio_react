@@ -14,7 +14,7 @@ const StaticProjects = () => {
     <ContainerStyle theme={theme}>
       <Header />
       <main>
-        <CardTitle title="Proyectos estáticos" nav="/proyectos" />
+        <CardTitle title="Static projects" nav="/projects" />
         <CardContainer>
           <CardItem
             name="Petshop"
@@ -22,7 +22,7 @@ const StaticProjects = () => {
             urlPage="https://vuoso-l.github.io/Frontend1/petShop/"
           />
           <CardItem
-            name="Súper héroes"
+            name="Heroes"
             urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643463142/liga_de_la_justicia_ffsmdn.jpg"
             urlPage="https://vuoso-l.github.io/Frontend1/heroes/"
           />

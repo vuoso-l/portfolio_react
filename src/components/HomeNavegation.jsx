@@ -7,14 +7,14 @@ const HomeNavegation = () => {
   const { theme } = useContext(ThemeContext);
   return (
     <HomeNavigationStyle theme={theme}>
-      <Link className="link" to={"/proyectos"}>
-        Proyectos
+      <Link className="link" to={"/projects"}>
+        Porjects
       </Link>
-      <Link className="link" to={"/contacto"}>
-        Contacto
+      <Link className="link" to={"/contact"}>
+        Contact
       </Link>
-      <Link className="link" to={"/formacion"}>
-        Formación
+      <Link className="link" to={"/resume"}>
+        Resume
       </Link>
     </HomeNavigationStyle>
   );

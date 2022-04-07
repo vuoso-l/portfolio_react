@@ -10,8 +10,8 @@ const Contact = () => {
   return (
     <ContainerStyle theme={theme}>
       <Header />
-      <CardTitle title="Proyectos" nav="/" />
-      <h2>Contact</h2>
+      <CardTitle title="Contact" nav="/" />
+      <h2>In construction</h2>
       <Footer />
     </ContainerStyle>
   );

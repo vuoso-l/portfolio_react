@@ -12,24 +12,24 @@ const Home = () => {
   return (
     <ContainerStyle theme={theme}>
       <Header />
-      <CardTitle title="Proyectos" nav="/" />
+      <CardTitle title="Projects" nav="/" />
       <Card
-        name="Proyectos con API propia"
-        urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460718/front-api_r0nve2.png"
-        urlPage="/proyectos-api"
-      />
-      <Card
-        name="Proyectos React JS"
+        name="React JS projects"
         urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460719/react_tctrfo.png"
         urlPage="/proyectos-react"
       />
       <Card
-        name="Proyectos Vanilla Javascript"
+        name="Projects built with our own API"
+        urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460718/front-api_r0nve2.png"
+        urlPage="/proyectos-api"
+      />
+      <Card
+        name="Vanilla Javascript projects"
         urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460718/html-css-js_lesdpl.png"
         urlPage="/proyectos-dinamicos"
       />
       <Card
-        name="Proyectos estáticos"
+        name="Static projects"
         urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460718/html-css_s2djr2.jpg"
         urlPage="/proyectos-estaticos"
       />

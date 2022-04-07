@@ -12,7 +12,7 @@ const Card = ({ name, urlImg, urlPage }) => {
       <H2CardStyle theme={theme}>{name}</H2CardStyle>
       <ImgStyle src={urlImg} alt="img"></ImgStyle>
       <Link theme={theme} className="link" to={urlPage}>
-        Ingresar
+        Enter
       </Link>
     </CardStyle>
   );
