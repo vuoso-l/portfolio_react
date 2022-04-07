@@ -1,6 +1,6 @@
 import React from "react";
 import { imgGithub, imgLinkedin } from "../styleAux/fontAwesoneIcon";
-import { FooterStyle } from "./FooterStyle";
+import { FooterStyle } from "../stylesComponents/FooterStyle";
 
 const Footer = () => {
   return (
@@ -12,11 +12,7 @@ const Footer = () => {
       >
         {imgLinkedin} LinkedIn
       </a>
-      <a
-        href="https://github.com/vuoso-l/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://github.com/vuoso-l/" target="_blank" rel="noreferrer">
         {imgGithub} GitHub
       </a>
     </FooterStyle>

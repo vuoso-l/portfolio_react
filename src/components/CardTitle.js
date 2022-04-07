@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { H2CardStyle } from "./BasicTagsStyle";
-import { CardTitleStyle } from "./CardTitleStyle";
+import { H2CardStyle } from "../stylesComponents/BasicTagsStyle";
+import { CardTitleStyle } from "../stylesComponents/CardTitleStyle";
 
 function CardTitle({ title, nav }) {
   return (

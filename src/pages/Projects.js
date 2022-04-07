@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import { ContainerStyle } from "../components/ContainerStyle";
+import { ContainerStyle } from "../stylesComponents/ContainerStyle";
 import ThemeContext from "../context/ThemeContext";
 import CardTitle from "../components/CardTitle";
 

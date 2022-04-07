@@ -2,9 +2,9 @@ import React, { useContext } from "react";
 import CardItem from "../components/CardItem";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import { ContainerStyle } from "../components/ContainerStyle";
+import { ContainerStyle } from "../stylesComponents/ContainerStyle";
 import CardTitle from "../components/CardTitle";
-import { CardContainer } from "../components/BasicTagsStyle";
+import { CardContainer } from "../stylesComponents/BasicTagsStyle";
 import ThemeContext from "../context/ThemeContext";
 
 const StaticProjects = () => {

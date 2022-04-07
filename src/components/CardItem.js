@@ -1,8 +1,11 @@
 import React, { useContext } from "react";
 import ThemeContext from "../context/ThemeContext";
-import { H2CardStyle, GralAnchor, ImgStyle } from "./BasicTagsStyle";
-import { CardStyle } from "./CardStyle";
-
+import {
+  H2CardStyle,
+  GralAnchor,
+  ImgStyle,
+} from "../stylesComponents/BasicTagsStyle";
+import { CardStyle } from "../stylesComponents/CardStyle";
 
 const CardItem = ({ name, urlImg, urlPage }) => {
   const { theme } = useContext(ThemeContext);
