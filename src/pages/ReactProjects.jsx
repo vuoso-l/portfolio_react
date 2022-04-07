@@ -17,6 +17,16 @@ const ReactProjects = () => {
         <CardTitle title="Proyectos React JS" nav="/proyectos" />
         <CardContainer>
           <CardItem
+            name="Frontend Challenge - Alkemy"
+            urlImg="https://res.cloudinary.com/lupevu/image/upload/v1649370256/challenge_alkemy_ypaled.jpg"
+            urlPage="https://alkemy-react-challenge-one.vercel.app/login"
+          />
+          <CardItem
+            name="Frontend Challenge - Siempre en Casa"
+            urlImg="https://res.cloudinary.com/lupevu/image/upload/v1646409109/challenge_frontend-sec_djx70i.jpg"
+            urlPage="https://frontend-challenge-sec.vercel.app/"
+          />
+          <CardItem
             name="Cambio tema claro a oscuro"
             urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460720/theme-dark-light_x9pjcs.jpg"
             urlPage="https://vuoso-l.github.io/react_render-images//"
