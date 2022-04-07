@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { imgGithub, imgLinkedin } from "../styleAux/fontAwesoneIcon";
+import { imgEmail, imgGithub, imgLinkedin } from "../styleAux/fontAwesoneIcon";
 import { FooterStyle } from "../stylesComponents/FooterStyle";
 import ThemeContext from "../context/ThemeContext";
 
@@ -17,6 +17,7 @@ const Footer = () => {
       <a href="https://github.com/vuoso-l/" target="_blank" rel="noreferrer">
         {imgGithub} GitHub
       </a>
+      <p>{imgEmail} vuosolucas@gmail.com</p>
     </FooterStyle>
   );
 };

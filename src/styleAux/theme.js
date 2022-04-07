@@ -13,7 +13,7 @@ export const color = {
   bgLightButton: "#161616",
   bgDarkButton: "aliceblue",
   buttonHover: "radial-gradient(rgb(61, 61, 240), #3f87a6)",
-  aFooter: "radial-gradient(rgb(61, 61, 240), #3f87a6)",
+  aFooter: "#3f87a6",
   bgNavigationHome: "#ffc107",
 };
 
