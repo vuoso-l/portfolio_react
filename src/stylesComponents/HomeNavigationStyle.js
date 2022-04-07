@@ -6,7 +6,8 @@ export const HomeNavigationStyle = styled.div`
   ${displayFlex("flex", "column", "center", "center")};
   width: 100%;
   .link {
-    padding: 10px 20px;
+    padding: 30px 10px;
+    margin: 10px 5px;
     color: ${({ theme }) =>
       theme === "light" ? color.lightParagraph : color.darkParagraph};
     background-color: ${color.bgNavigationHome};
@@ -21,9 +22,6 @@ export const HomeNavigationStyle = styled.div`
   }
   @media ${device.tablet} {
     flex-direction: row;
-    .link {
-      font-size: 26px;
-    }
   }
   @media ${device.laptop} {
     .link {
