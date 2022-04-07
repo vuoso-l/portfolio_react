@@ -1,14 +1,9 @@
 import React from "react";
+import imgPortfolio from "../img/img_portfolio.jpg";
+import { ImgPresentation } from "../stylesComponents/BasicTagsStyle";
 
 const ImagePresentation = () => {
-  return (
-    <div>
-      <img
-        src="https://res.cloudinary.com/lupevu/image/upload/v1643460718/felino_enzj5l.jpg"
-        alt="Profile"
-      ></img>
-    </div>
-  );
+  return <ImgPresentation src={imgPortfolio} alt="Profile"></ImgPresentation>;
 };
 
 export default ImagePresentation;

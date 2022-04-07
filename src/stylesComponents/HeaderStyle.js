@@ -7,7 +7,7 @@ export const HeaderStyle = styled.header`
   width: 100%;
   height: 200px;
   ${backgroundHeader(
-    "https://res.cloudinary.com/lupevu/image/upload/v1643460719/portada_linkedin2_hvcxj4.jpg"
+    "https://res.cloudinary.com/lupevu/image/upload/v1643460719/portada_linkedin2_hvcxj4.jpg",
   )};
   label {
     width: 40px;

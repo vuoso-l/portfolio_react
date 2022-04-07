@@ -3,7 +3,7 @@ import ThemeContext from "../context/ThemeContext";
 import { imgMoon, imgSun } from "../styleAux/fontAwesoneIcon";
 import { H1Style, H2Style, H4Style } from "../stylesComponents/BasicTagsStyle";
 import { HeaderStyle } from "../stylesComponents/HeaderStyle";
-import Nav from "./Nav";
+import Navegation from "./Navegation";
 
 const Header = () => {
   const { theme, handleTheme } = useContext(ThemeContext);
@@ -13,7 +13,7 @@ const Header = () => {
       <HeaderStyle>
         <div>
           <H2Style>Lucas Vuoso</H2Style>
-          <H4Style>Frontend Web Developer - junior</H4Style>
+          <H4Style>Frontend Developer</H4Style>
           <H1Style>Portfolio</H1Style>
         </div>
         <label theme={theme}>
@@ -25,7 +25,7 @@ const Header = () => {
           />
         </label>
       </HeaderStyle>
-      <Nav />
+      <Navegation />
     </>
   );
 };
