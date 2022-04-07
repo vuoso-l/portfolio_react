@@ -4,13 +4,15 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { ContainerStyle } from "../components/ContainerStyle";
 import ThemeContext from "../context/ThemeContext";
+import CardTitle from "../components/CardTitle";
 
 const Home = () => {
   const { theme } = useContext(ThemeContext);
-  
+
   return (
     <ContainerStyle theme={theme}>
       <Header />
+      <CardTitle title="Proyectos" nav="/" />
       <Card
         name="Proyectos con API propia"
         urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460718/front-api_r0nve2.png"

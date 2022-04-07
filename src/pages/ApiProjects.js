@@ -14,7 +14,10 @@ const ApiProject = () => {
     <ContainerStyle theme={theme}>
       <Header />
       <main>
-        <CardTitle title="Proyectos realizados con API propia" />
+        <CardTitle
+          title="Proyectos realizados con API propia"
+          nav="/proyectos"
+        />
         <CardContainer>
           <CardItem
             name="Web Manteca & Harina"

@@ -14,7 +14,7 @@ const ReactProjects = () => {
     <ContainerStyle theme={theme}>
       <Header />
       <main>
-        <CardTitle title="Proyectos React JS" />
+        <CardTitle title="Proyectos React JS" nav="/proyectos" />
         <CardContainer>
           <CardItem
             name="Cambio tema claro a oscuro"

@@ -14,7 +14,7 @@ const VanillaJsProjects = () => {
     <ContainerStyle theme={theme}>
       <Header />
       <main>
-        <CardTitle title="Proyectos Vanilla Javascript" />
+        <CardTitle title="Proyectos Vanilla Javascript" nav="/proyectos" />
         <CardContainer>
           <CardItem
             name="ToDo app"

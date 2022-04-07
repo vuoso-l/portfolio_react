@@ -14,7 +14,7 @@ const StaticProjects = () => {
     <ContainerStyle theme={theme}>
       <Header />
       <main>
-        <CardTitle title="Proyectos estáticos" />
+        <CardTitle title="Proyectos estáticos" nav="/proyectos" />
         <CardContainer>
           <CardItem
             name="Petshop"
