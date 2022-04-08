@@ -16,22 +16,22 @@ const Home = () => {
       <Card
         name="React JS projects"
         urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460719/react_tctrfo.png"
-        urlPage="/proyectos-react"
+        urlPage="/react-projects"
       />
       <Card
         name="Projects built with our own API"
         urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460718/front-api_r0nve2.png"
-        urlPage="/proyectos-api"
+        urlPage="/api-projects"
       />
       <Card
         name="Vanilla Javascript projects"
         urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460718/html-css-js_lesdpl.png"
-        urlPage="/proyectos-dinamicos"
+        urlPage="/dinamic-projects"
       />
       <Card
         name="Static projects"
         urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460718/html-css_s2djr2.jpg"
-        urlPage="/proyectos-estaticos"
+        urlPage="/static-projects"
       />
       <Footer />
     </ContainerStyle>
