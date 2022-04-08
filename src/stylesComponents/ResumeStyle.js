@@ -25,10 +25,12 @@ export const ResumeStyle = styled.div`
       color: ${({ theme }) =>
         theme === "light" ? color.titleLightCard : color.titleDarkCard};
     }
-    p,
-    h4 {
+    p {
       text-align: center;
-      padding-left: 10px;
+    }
+    h4 {
+      align-self: flex-start;
+      padding-left: 60px;
     }
   }
   @media ${device.tablet} {
@@ -54,7 +56,8 @@ export const ResumeStyle = styled.div`
         font-size: 18px;
       }
       h4 {
-        font-size: 26px;
+        padding-left: 100px;
+        font-size: 24px;
       }
     }
   }
@@ -63,10 +66,23 @@ export const ResumeStyle = styled.div`
     .academic,
     .experience {
       p {
-        font-size: 24px;
+        font-size: 20px;
       }
       h4 {
-        font-size: 32px;
+        padding-left: 140px;
+        font-size: 26px;
+      }
+    }
+  }
+  @media ${device.laptopL} {
+    .techStack,
+    .academic,
+    .experience {
+      p {
+        font-size: 22px;
+      }
+      h4 {
+        font-size: 28px;
       }
     }
   }

@@ -15,12 +15,12 @@ const Resume = () => {
     <ContainerStyle theme={theme}>
       <Header />
       <ResumeStyle theme={theme}>
-        <H2CardStyle theme={theme}>Contact</H2CardStyle>
+        <H2CardStyle theme={theme}>Resume</H2CardStyle>
         <p>
-          I am a Frontend Developer, graduated from UTN Buenos Aires (E-learning
-          Center) as a fullStack developer with ReactJS and NodeJS. I am
-          currently finishing the first year of the Certified Tech Developer
-          career sponsored by MercadoLibre, Globant and Digital House.
+          I am a pro-active person, willing to face new challenges and
+          constantly trying to improve myself, motivated by teamwork and
+          collaboration environments. I am passionate about nature (mainly
+          mountains) and sports (running and cycling).
         </p>
         <div className="container">
           <div className="techStack">
