@@ -2,16 +2,19 @@ export const color = {
   titleHeader: "white",
   titleLightCard: "#161616",
   titleDarkCard: "#FAFAFA",
-  bgLightPrimary: "radial-gradient(rgb(61, 61, 240), #3f87a6)",
+  bgLightPrimary: "white",
   bgDarkPrimary: "black",
   bgLightCard: "white",
   bgDarkCard: "#161616",
+  lightParagraph: "#161616",
+  darkParagraph: "#FAFAFA",
   lightButton: "white",
   darkButton: "#161616",
   bgLightButton: "#161616",
   bgDarkButton: "aliceblue",
-  buttonHover: "white",
-  aFooter: "white",
+  buttonHover: "radial-gradient(rgb(61, 61, 240), #3f87a6)",
+  aFooter: "#3f87a6",
+  bgNavigationHome: "#ffc107",
 };
 
 export const displayFlex = (display, direction, justifyContent, alignItem) => {

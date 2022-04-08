@@ -10,6 +10,7 @@ export const CardStyle = styled.section`
   padding: 15px;
   margin: 15px;
   border-radius: 20px;
+  box-shadow: 2px 2px 10px 5px;
   background: ${({ theme }) =>
     theme === "light" ? color.bgLightCard : color.bgDarkCard};
   .link {
@@ -17,8 +18,10 @@ export const CardStyle = styled.section`
     border-radius: 10px;
     padding: 5px 15px;
     margin: 1px 0;
-    color: ${({ theme }) => (theme === "light" ? color.lightButton : color.darkButton)};
-    background-color: ${({ theme }) => (theme === "light" ? color.bgLightButton : color.bgDarkButton)};
+    color: ${({ theme }) =>
+      theme === "light" ? color.lightButton : color.darkButton};
+    background-color: ${({ theme }) =>
+      theme === "light" ? color.bgLightButton : color.bgDarkButton};
     font-size: 14px;
     text-align: center;
     &:hover {

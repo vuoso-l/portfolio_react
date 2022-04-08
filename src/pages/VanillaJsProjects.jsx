@@ -2,9 +2,9 @@ import React, { useContext } from "react";
 import CardItem from "../components/CardItem";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import { ContainerStyle } from "../components/ContainerStyle";
+import { ContainerStyle } from "../stylesComponents/ContainerStyle";
 import CardTitle from "../components/CardTitle";
-import { CardContainer } from "../components/BasicTagsStyle";
+import { CardContainer } from "../stylesComponents/BasicTagsStyle";
 import ThemeContext from "../context/ThemeContext";
 
 const VanillaJsProjects = () => {
@@ -14,7 +14,7 @@ const VanillaJsProjects = () => {
     <ContainerStyle theme={theme}>
       <Header />
       <main>
-        <CardTitle title="Proyectos Vanilla Javascript" />
+        <CardTitle title="Vanilla Javascript projects" nav="/projects" />
         <CardContainer>
           <CardItem
             name="ToDo app"
@@ -22,7 +22,7 @@ const VanillaJsProjects = () => {
             urlPage="https://vuoso-l.github.io/Frontend2/ToDo_inicial"
           />
           <CardItem
-            name="La familia de los felinos"
+            name="The feline family"
             urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460718/felino_enzj5l.jpg"
             urlPage="https://vuoso-l.github.io/Frontend2/tema_oscuro_C5S/"
           />
@@ -37,7 +37,7 @@ const VanillaJsProjects = () => {
             urlPage="https://vuoso-l.github.io/Frontend2/fetch-api-get/"
           />
           <CardItem
-            name="Cronómetro"
+            name="Chronometer"
             urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460718/cronometro_zoeram.jpg"
             urlPage="https://vuoso-l.github.io/Frontend2/cronometro_C8/"
           />

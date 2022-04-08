@@ -82,6 +82,23 @@ export const ElementCardImg = styled(ImgStyle)`
   }
 `;
 
+export const ImgPresentation = styled.img`
+  width: 80%;
+  border-radius: 50%;
+  @media ${device.mobileM} {
+    width: 80%;
+  }
+  @media ${device.mobileL} {
+    width: 70%;
+  }
+  @media ${device.tablet} {
+    width: 50%;
+  }
+  @media ${device.laptop} {
+    width: 40%;
+  }
+`;
+
 export const CardContainer = styled.div`
   ${displayFlex("flex", "column", "center", "center")};
   @media ${device.tablet} {
@@ -95,14 +112,16 @@ export const GralAnchor = styled.a`
   border-radius: 10px;
   padding: 5px 15px;
   margin: 1px 0;
-  color: ${({ theme }) => (theme === "light" ? color.lightButton : color.darkButton)};
-  background-color: ${({ theme }) => (theme === "light" ? color.bgLightButton : color.bgDarkButton)};
+  color: ${({ theme }) =>
+    theme === "light" ? color.lightButton : color.darkButton};
+  background-color: ${({ theme }) =>
+    theme === "light" ? color.bgLightButton : color.bgDarkButton};
   font-size: 14px;
   text-align: center;
   &:hover {
     cursor: pointer;
     background-color: grey;
-    color: ${color.buttonHover}; 
+    color: ${color.buttonHover};
   }
   @media ${device.tablet} {
     font-size: 16px;

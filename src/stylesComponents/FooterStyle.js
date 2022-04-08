@@ -4,19 +4,28 @@ import { color, displayFlex } from "../styleAux/theme";
 
 const FooterStyle = styled.footer`
   ${displayFlex("flex", "column", "center", "center")};
-  background-color: ${color.bgPrimary};
   width: 100%;
   max-width: 100%;
   a {
-    padding: 10px;
-    color: ${color.aFooter}
+    padding: 10px 20px;
+    color: ${({ theme }) =>
+      theme === "light" ? color.titleLightCard : color.titleDarkCard};
+    &:hover {
+      color: ${color.aFooter};
+    }
+  }
+  p {
+    padding: 10px 20px;
+    margin: 0px;
+    color: ${({ theme }) =>
+      theme === "light" ? color.titleLightCard : color.titleDarkCard};
   }
   @media ${device.tablet} {
     flex-direction: row;
     font-size: 20px;
   }
   @media ${device.laptop} {
-    
+    font-size: 26px;
   }
 `;
 

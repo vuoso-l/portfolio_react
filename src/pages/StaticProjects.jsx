@@ -2,9 +2,9 @@ import React, { useContext } from "react";
 import CardItem from "../components/CardItem";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import { ContainerStyle } from "../components/ContainerStyle";
+import { ContainerStyle } from "../stylesComponents/ContainerStyle";
 import CardTitle from "../components/CardTitle";
-import { CardContainer } from "../components/BasicTagsStyle";
+import { CardContainer } from "../stylesComponents/BasicTagsStyle";
 import ThemeContext from "../context/ThemeContext";
 
 const StaticProjects = () => {
@@ -14,7 +14,7 @@ const StaticProjects = () => {
     <ContainerStyle theme={theme}>
       <Header />
       <main>
-        <CardTitle title="Proyectos estáticos" />
+        <CardTitle title="Static projects" nav="/projects" />
         <CardContainer>
           <CardItem
             name="Petshop"
@@ -22,7 +22,7 @@ const StaticProjects = () => {
             urlPage="https://vuoso-l.github.io/Frontend1/petShop/"
           />
           <CardItem
-            name="Súper héroes"
+            name="Heroes"
             urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643463142/liga_de_la_justicia_ffsmdn.jpg"
             urlPage="https://vuoso-l.github.io/Frontend1/heroes/"
           />
