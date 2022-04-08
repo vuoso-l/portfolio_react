@@ -8,7 +8,7 @@ const HomeNavegation = () => {
   return (
     <HomeNavigationStyle theme={theme}>
       <Link className="link" to={"/projects"}>
-        Porjects
+        Projects
       </Link>
       <Link className="link" to={"/contact"}>
         Contact
