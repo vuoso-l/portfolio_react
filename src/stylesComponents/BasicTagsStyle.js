@@ -61,18 +61,15 @@ export const H4Style = styled.h4`
 `;
 
 export const ImgStyle = styled.img`
-  width: 100%;
-  height: 200px;
+  width: 70%;
+  height: auto;
   border-radius: 10px;
   @media ${device.mobileM} {
     width: 80%;
   }
-  @media ${device.mobileL} {
-    width: 70%;
-  }
   @media ${device.laptop} {
     width: 60%;
-    height: 250px;
+    height: 50%;
   }
 `;
 

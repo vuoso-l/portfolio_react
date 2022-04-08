@@ -4,9 +4,9 @@ import { displayFlex } from "../styleAux/theme";
 import { color } from "../styleAux/theme";
 
 export const CardStyle = styled.section`
-  ${displayFlex("flex", "column", "center", "center")};
-  width: 90%;
-  height: auto;
+  ${displayFlex("flex", "column", "space-around", "center")};
+  width: 65%;
+  height: 350px;
   padding: 15px;
   margin: 15px;
   border-radius: 20px;
@@ -31,23 +31,30 @@ export const CardStyle = styled.section`
     }
   }
   @media ${device.mobileM} {
-    width: 80%;
+    width: 70%;
+    height: 400px;
   }
   @media ${device.mobileL} {
-    width: 65%;
+    width: 55%;
   }
   @media ${device.tablet} {
-    justify-content: space-around;
-    width: 45%;
+    width: 40%;
     height: 450px;
     .link {
       font-size: 16px;
     }
   }
   @media ${device.laptop} {
-    width: 40%;
+    width: 35%;
+    height: 450px;
     .link {
       font-size: 20px;
+    }
+  }
+  @media ${device.laptopM} {
+    width: 25%;
+    .link {
+      font-size: 26px;
     }
   }
 `;
