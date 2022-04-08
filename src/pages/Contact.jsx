@@ -22,24 +22,26 @@ const Contact = () => {
         <H3CardStyle theme={theme}>
           I look forward to hearing from you
         </H3CardStyle>
-        <SocialNetwork
-          className="anchor"
-          url="https://wa.me/541169611987"
-          imgFontAw={imgWhatsapp}
-          socNetName="Whatsapp"
-        />
-        <SocialNetwork
-          className="anchor"
-          url="https://www.linkedin.com/in/vuoso-l/"
-          imgFontAw={imgLinkedin}
-          socNetName="LinkedIn"
-        />
-        <SocialNetwork
-          className="anchor"
-          url="https://github.com/vuoso-l/"
-          imgFontAw={imgGithub}
-          socNetName="GitHub"
-        />
+        <div>
+          <SocialNetwork
+            className="anchor"
+            url="https://wa.me/541169611987"
+            imgFontAw={imgWhatsapp}
+            socNetName="Whatsapp"
+          />
+          <SocialNetwork
+            className="anchor"
+            url="https://www.linkedin.com/in/vuoso-l/"
+            imgFontAw={imgLinkedin}
+            socNetName="LinkedIn"
+          />
+          <SocialNetwork
+            className="anchor"
+            url="https://github.com/vuoso-l/"
+            imgFontAw={imgGithub}
+            socNetName="GitHub"
+          />
+        </div>
       </ContactStyle>
       <Footer />
     </ContainerStyle>
