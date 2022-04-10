@@ -1,12 +1,12 @@
 import React from "react";
 
-const ExperienceComponent = ({ h4, p1, p2, p3 }) => {
+const ExperienceComponent = ({ h5, h6, p1, p2 }) => {
   return (
     <>
-      <h4>{h4}</h4>
+      <h5>{h5}</h5>
+      <h6>{h6}</h6>
       <p>{p1}</p>
       <p>{p2}</p>
-      <p>{p3}</p>
     </>
   );
 };

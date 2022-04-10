@@ -13,25 +13,26 @@ export const ResumeStyle = styled.div`
       theme === "light" ? color.titleLightCard : color.titleDarkCard};
   }
   .container,
-  .techStack,
-  .languages,
-  .academic,
-  .experience {
+  section {
     ${displayFlex("flex", "column", "center", "center")};
     width: 100%;
-    padding: 20px 0px;
-    p,
-    h4 {
-      color: ${({ theme }) =>
-        theme === "light" ? color.titleLightCard : color.titleDarkCard};
+    padding-top: 10px;
+    div {
+      padding: 10px 0px;
+      p,
+      h4,
+      h5,
+      h6 {
+        color: ${({ theme }) =>
+          theme === "light" ? color.titleLightCard : color.titleDarkCard};
+      }
+      p {
+        text-align: center;
+      }
     }
-    p {
-      text-align: center;
-    }
-    h4 {
-      align-self: flex-start;
-      padding-left: 60px;
-    }
+  }
+  section {
+    border-bottom: 2px solid lightgrey;
   }
   @media ${device.tablet} {
     p {
@@ -40,49 +41,46 @@ export const ResumeStyle = styled.div`
     .container {
       flex-direction: row;
       flex-wrap: wrap;
-      padding: 50px 0px;
-      .techStack,
-      .academic,
-      .experience {
-        width: 50%;
+      padding: 20px 0px;
+      section {
+        ${displayFlex("flex", "row", "flex-start", "center")};
+        width: 100%;
+        div {
+          ${displayFlex("flex", "column", "center", "center")};
+          width: 100%;
+          h4,
+          h5,
+          h6 {
+            align-self: flex-start;
+            padding-left: 50px;
+          }
+        }
       }
     }
   }
   @media ${device.laptop} {
-    .techStack,
-    .academic,
-    .experience {
-      p {
-        font-size: 18px;
-      }
-      h4 {
-        padding-left: 100px;
-        font-size: 24px;
+    .container {
+      section {
+        div {
+          h4,
+          h5,
+          h6 {
+            padding-left: 100px;
+          }
+        }
       }
     }
   }
   @media ${device.laptopM} {
-    .techStack,
-    .academic,
-    .experience {
-      p {
-        font-size: 20px;
-      }
-      h4 {
-        padding-left: 140px;
-        font-size: 26px;
-      }
-    }
-  }
-  @media ${device.laptopL} {
-    .techStack,
-    .academic,
-    .experience {
-      p {
-        font-size: 22px;
-      }
-      h4 {
-        font-size: 28px;
+    .container {
+      section {
+        div {
+          h4,
+          h5,
+          h6 {
+            padding-left: 140px;
+          }
+        }
       }
     }
   }

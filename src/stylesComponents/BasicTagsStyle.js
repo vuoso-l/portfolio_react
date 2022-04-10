@@ -42,12 +42,14 @@ export const H2CardStyle = styled(H2Style)`
     theme === "light" ? color.titleLightCard : color.titleDarkCard};
 `;
 
-export const H3CardStyle = styled(H2Style)`
-  font-size: 18px;
+export const H3CardStyle = styled.h3`
+  text-shadow: 4px 4px 4px grey;
+  text-align: center;
   color: ${({ theme }) =>
     theme === "light" ? color.titleLightCard : color.titleDarkCard};
   @media ${device.tablet} {
     font-size: 24px;
+    width: 100%;
   }
   @media ${device.laptop} {
     font-size: 28px;

@@ -1,11 +1,11 @@
 import React from "react";
 
-const AcademicComponent = ({ h4, p1, p2 }) => {
+const AcademicComponent = ({ h5, h6, p }) => {
   return (
     <>
-      <h4>{h4}</h4>
-      <p>{p1}</p>
-      <p>{p2}</p>
+      <h5>{h5}</h5>
+      <h6>{h6}</h6>
+      <p>{p}</p>
     </>
   );
 };
