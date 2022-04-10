@@ -23,7 +23,7 @@ const Resume = () => {
           mountains) and sports (running and cycling).
         </p>
         <div className="container">
-          <section className="techStack">
+          <section>
             <H3CardStyle theme={theme}>Tech stack</H3CardStyle>
             <div>
               <TechStackComponent
@@ -42,14 +42,7 @@ const Resume = () => {
               />
             </div>
           </section>
-          <section className="language">
-            <H3CardStyle theme={theme}>Languages</H3CardStyle>
-            <div>
-              <p>English - B1 level</p>
-              <p>Italian - beginner level</p>
-            </div>
-          </section>
-          <section className="academic">
+          <section>
             <H3CardStyle theme={theme}>Academic history</H3CardStyle>
             <div>
               <AcademicComponent
@@ -74,7 +67,14 @@ const Resume = () => {
               />
             </div>
           </section>
-          <section className="experience">
+          <section>
+            <H3CardStyle theme={theme}>Languages</H3CardStyle>
+            <div>
+              <p>English - B1 level</p>
+              <p>Italian - beginner level</p>
+            </div>
+          </section>
+          <section>
             <H3CardStyle theme={theme}>Work experience</H3CardStyle>
             <div>
               <p>
