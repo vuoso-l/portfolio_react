@@ -13,6 +13,9 @@ export const NavigationStyle = styled.div`
     padding: 10px 20px;
     color: ${({ theme }) =>
       theme === "light" ? color.lightParagraph : color.darkParagraph};
+    :hover {
+      color: darkgoldenrod;
+    }
   }
   .linkBase {
     font-size: 24px;
