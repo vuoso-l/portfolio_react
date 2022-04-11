@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import ThemeContext from "../context/ThemeContext";
-import { H2CardStyle, ImgStyle } from "../stylesComponents/BasicTagsStyle";
+import { H3CardStyle, ImgStyle } from "../stylesComponents/BasicTagsStyle";
 import { CardStyle } from "../stylesComponents/CardStyle";
 
 const Card = ({ name, urlImg, urlPage }) => {
@@ -9,7 +9,7 @@ const Card = ({ name, urlImg, urlPage }) => {
 
   return (
     <CardStyle theme={theme}>
-      <H2CardStyle theme={theme}>{name}</H2CardStyle>
+      <H3CardStyle theme={theme}>{name}</H3CardStyle>
       <ImgStyle src={urlImg} alt="img"></ImgStyle>
       <Link theme={theme} className="link" to={urlPage}>
         Enter

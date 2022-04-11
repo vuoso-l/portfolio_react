@@ -5,36 +5,16 @@ import { displayFlex } from "../styleAux/theme";
 
 export const H1Style = styled.h1`
   text-shadow: 4px 4px 8px grey;
-  font-size: 28px;
   text-align: center;
   padding-top: 10px;
   border-top: 2px solid white;
   color: ${color.titleHeader};
-  @media ${device.tablet} {
-    font-size: 34px;
-  }
-  @media ${device.laptop} {
-    font-size: 40px;
-  }
-  @media ${device.laptopL} {
-    font-size: 46px;
-  }
 `;
 
 export const H2Style = styled.h2`
   text-shadow: 4px 4px 4px grey;
-  font-size: 24px;
   text-align: center;
   color: ${color.titleHeader};
-  @media ${device.tablet} {
-    font-size: 30px;
-  }
-  @media ${device.laptop} {
-    font-size: 36px;
-  }
-  @media ${device.laptopL} {
-    font-size: 42px;
-  }
 `;
 
 export const H2CardStyle = styled(H2Style)`
@@ -48,33 +28,16 @@ export const H3CardStyle = styled.h3`
   color: ${({ theme }) =>
     theme === "light" ? color.titleLightCard : color.titleDarkCard};
   @media ${device.tablet} {
-    font-size: 24px;
     width: 100%;
-  }
-  @media ${device.laptop} {
-    font-size: 28px;
-  }
-  @media ${device.laptopL} {
-    font-size: 34px;
   }
 `;
 
 export const H4Style = styled.h4`
   text-shadow: 4px 4px 4px grey;
-  font-size: 20px;
   font-weight: bold;
   text-align: center;
   padding-bottom: 30px;
   color: ${color.titleHeader};
-  @media ${device.tablet} {
-    font-size: 24px;
-  }
-  @media ${device.laptop} {
-    font-size: 26px;
-  }
-  @media ${device.laptopL} {
-    font-size: 32px;
-  }
 `;
 
 export const ImgStyle = styled.img`

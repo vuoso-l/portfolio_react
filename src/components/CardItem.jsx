@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import ThemeContext from "../context/ThemeContext";
 import {
-  H2CardStyle,
+  H3CardStyle,
   GralAnchor,
   ImgStyle,
 } from "../stylesComponents/BasicTagsStyle";
@@ -12,7 +12,7 @@ const CardItem = ({ name, urlImg, urlPage }) => {
 
   return (
     <CardStyle theme={theme}>
-      <H2CardStyle theme={theme}>{name}</H2CardStyle>
+      <H3CardStyle theme={theme}>{name}</H3CardStyle>
       <ImgStyle src={urlImg} alt="img"></ImgStyle>
       <GralAnchor theme={theme} href={urlPage} target="_blank">
         Enter
