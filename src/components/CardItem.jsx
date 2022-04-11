@@ -13,9 +13,8 @@ const CardItem = ({ name, urlImg, urlPage }) => {
   return (
     <CardStyle theme={theme}>
       <H3CardStyle theme={theme}>{name}</H3CardStyle>
-      <ImgStyle src={urlImg} alt="img"></ImgStyle>
       <GralAnchor theme={theme} href={urlPage} target="_blank">
-        Enter
+        <ImgStyle src={urlImg} alt="img"></ImgStyle>
       </GralAnchor>
     </CardStyle>
   );

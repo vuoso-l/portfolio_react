@@ -41,21 +41,13 @@ export const H4Style = styled.h4`
 `;
 
 export const ImgStyle = styled.img`
-  width: 70%;
+  width: 50%;
   height: auto;
   border-radius: 10px;
-  @media ${device.mobileM} {
-    width: 80%;
-  }
-  @media ${device.laptop} {
-    width: 60%;
-    height: 50%;
-  }
-`;
-
-export const ElementCardImg = styled(ImgStyle)`
   &:hover {
     cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.2s;
   }
 `;
 
@@ -85,25 +77,11 @@ export const CardContainer = styled.div`
 `;
 
 export const GralAnchor = styled.a`
-  border: 1px solid;
-  border-radius: 10px;
-  padding: 5px 15px;
+  padding: 20px 0px;
   margin: 1px 0;
-  color: ${({ theme }) =>
-    theme === "light" ? color.lightButton : color.darkButton};
-  background-color: ${({ theme }) =>
-    theme === "light" ? color.bgLightButton : color.bgDarkButton};
-  font-size: 14px;
   text-align: center;
-  &:hover {
-    cursor: pointer;
-    background-color: grey;
-    color: ${color.buttonHover};
-  }
-  @media ${device.tablet} {
-    font-size: 16px;
-  }
+  width: 100%;
   @media ${device.laptop} {
-    font-size: 20px;
+    padding: 40px 0px;
   }
 `;

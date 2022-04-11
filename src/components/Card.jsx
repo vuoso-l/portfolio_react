@@ -10,9 +10,8 @@ const Card = ({ name, urlImg, urlPage }) => {
   return (
     <CardStyle theme={theme}>
       <H3CardStyle theme={theme}>{name}</H3CardStyle>
-      <ImgStyle src={urlImg} alt="img"></ImgStyle>
       <Link theme={theme} className="link" to={urlPage}>
-        Enter
+        <ImgStyle src={urlImg} alt="img"></ImgStyle>
       </Link>
     </CardStyle>
   );
