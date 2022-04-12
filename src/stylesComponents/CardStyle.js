@@ -10,6 +10,11 @@ export const CardStyle = styled.section`
   border-bottom: 2px solid lightgrey;
   background: ${({ theme }) =>
     theme === "light" ? color.bgLightCard : color.bgDarkCard};
+  div {
+    ${displayFlex("flex", "column", "center", "center")};
+    text-align: center;
+    width: 100%;
+  }
   .link {
     padding: 20px 0px;
     margin: 1px 0;

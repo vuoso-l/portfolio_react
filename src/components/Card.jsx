@@ -4,12 +4,15 @@ import ThemeContext from "../context/ThemeContext";
 import { H3CardStyle, ImgStyle } from "../stylesComponents/BasicTagsStyle";
 import { CardStyle } from "../stylesComponents/CardStyle";
 
-const Card = ({ name, urlImg, urlPage }) => {
+const Card = ({ name, p, urlImg, urlPage }) => {
   const { theme } = useContext(ThemeContext);
 
   return (
     <CardStyle theme={theme}>
-      <H3CardStyle theme={theme}>{name}</H3CardStyle>
+      <div>
+        <H3CardStyle theme={theme}>{name}</H3CardStyle>
+        <p>{p}</p>
+      </div>
       <Link theme={theme} className="link" to={urlPage}>
         <ImgStyle src={urlImg} alt="img"></ImgStyle>
       </Link>
