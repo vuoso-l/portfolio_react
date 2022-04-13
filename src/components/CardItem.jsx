@@ -1,4 +1,5 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
+
 import ThemeContext from "../context/ThemeContext";
 import {
   H3CardStyle,
@@ -14,7 +15,7 @@ const CardItem = ({ name, urlImg, urlPage }) => {
     <CardStyle theme={theme}>
       <H3CardStyle theme={theme}>{name}</H3CardStyle>
       <GralAnchor theme={theme} href={urlPage} target="_blank">
-        <ImgStyle src={urlImg} alt="img"></ImgStyle>
+        <ImgStyle src={urlImg} alt="img" />
       </GralAnchor>
     </CardStyle>
   );

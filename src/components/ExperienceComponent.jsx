@@ -1,5 +1,3 @@
-import React from "react";
-
 const ExperienceComponent = ({ h5, h6, p1, p2 }) => {
   return (
     <>

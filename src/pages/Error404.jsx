@@ -1,4 +1,3 @@
-import React from "react";
 import { H2CardStyle } from "../stylesComponents/BasicTagsStyle";
 
 const Error = () => {

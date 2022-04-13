@@ -1,8 +1,10 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
+
 import ThemeContext from "../context/ThemeContext";
 import { imgMoon, imgSun } from "../styleAux/fontAwesoneIcon";
 import { H1Style, H2Style, H4Style } from "../stylesComponents/BasicTagsStyle";
 import { HeaderStyle } from "../stylesComponents/HeaderStyle";
+
 import Navegation from "./Navegation";
 
 const Header = () => {

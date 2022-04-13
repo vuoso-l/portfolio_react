@@ -1,4 +1,5 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
+
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import SocialNetwork from "../components/SocialNetwork";
@@ -14,6 +15,7 @@ import { ContainerStyle } from "../stylesComponents/ContainerStyle";
 
 const Contact = () => {
   const { theme } = useContext(ThemeContext);
+
   return (
     <ContainerStyle theme={theme}>
       <Header />

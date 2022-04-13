@@ -1,10 +1,13 @@
-import React, { useContext } from "react";
-import HomeNavegation from "./HomeNavegation";
+import { useContext } from "react";
+
 import ThemeContext from "../context/ThemeContext";
 import { DescriptionStyle } from "../stylesComponents/DescriptionStyle";
 
+import HomeNavegation from "./HomeNavegation";
+
 const PresentationDescription = () => {
   const { theme } = useContext(ThemeContext);
+
   return (
     <DescriptionStyle theme={theme}>
       <h2>Hello!!</h2>

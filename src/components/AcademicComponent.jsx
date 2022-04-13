@@ -1,5 +1,3 @@
-import React from "react";
-
 const AcademicComponent = ({ h5, h6, p }) => {
   return (
     <>

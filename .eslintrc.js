@@ -27,6 +27,8 @@ module.exports = {
     "react/prop-types": "off",
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
+    "arrow-body-style": "off",
+    "prefer-arrow-callback": "off",
     "prettier/prettier": [
       "error",
       {
@@ -38,6 +40,7 @@ module.exports = {
         bracketSameLine: true,
         arrowParens: "always",
         endOfLine: "auto",
+        printWidth: 80,
       },
     ],
     "no-unused-vars": [
@@ -71,7 +74,7 @@ module.exports = {
         "newlines-between": "always",
       },
     ],
-    "react/self-closing-comp": "warn",
+    "react/self-closing-comp": "error",
 
     "padding-line-between-statements": [
       "error",

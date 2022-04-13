@@ -1,5 +1,6 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+
 import ThemeContext from "../context/ThemeContext";
 import { H3CardStyle, ImgStyle } from "../stylesComponents/BasicTagsStyle";
 import { CardStyle } from "../stylesComponents/CardStyle";
@@ -14,7 +15,7 @@ const Card = ({ name, p, urlImg, urlPage }) => {
         <p>{p}</p>
       </div>
       <Link theme={theme} className="link" to={urlPage}>
-        <ImgStyle src={urlImg} alt="img"></ImgStyle>
+        <ImgStyle src={urlImg} alt="img" />
       </Link>
     </CardStyle>
   );

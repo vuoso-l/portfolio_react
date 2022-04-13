@@ -1,5 +1,5 @@
-import React from "react";
 import { Routes, Route } from "react-router-dom";
+
 import ApiProjects from "../pages/ApiProjects";
 import ReactProjects from "../pages/ReactProjects";
 import StaticProjects from "../pages/StaticProjects";

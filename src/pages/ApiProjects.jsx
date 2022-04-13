@@ -1,4 +1,5 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
+
 import { CardContainer } from "../stylesComponents/BasicTagsStyle";
 import CardItem from "../components/CardItem";
 import Footer from "../components/Footer";

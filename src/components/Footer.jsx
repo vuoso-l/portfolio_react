@@ -1,11 +1,14 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
+
 import { imgEmail, imgGithub, imgLinkedin } from "../styleAux/fontAwesoneIcon";
 import { FooterStyle } from "../stylesComponents/FooterStyle";
 import ThemeContext from "../context/ThemeContext";
+
 import SocialNetwork from "./SocialNetwork";
 
 const Footer = () => {
   const { theme } = useContext(ThemeContext);
+
   return (
     <FooterStyle theme={theme}>
       <SocialNetwork

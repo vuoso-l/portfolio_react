@@ -1,5 +1,3 @@
-import React from "react";
-
 const TechStackComponent = ({ h4, p }) => {
   return (
     <>

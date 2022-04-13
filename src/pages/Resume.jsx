@@ -1,16 +1,20 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
+
 import AcademicComponent from "../components/AcademicComponent";
 import ExperienceComponent from "../components/ExperienceComponent";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import SocialNetwork from "../components/SocialNetwork";
 import TechStackComponent from "../components/TechStackComponent";
 import ThemeContext from "../context/ThemeContext";
 import { H2CardStyle, H3CardStyle } from "../stylesComponents/BasicTagsStyle";
 import { ContainerStyle } from "../stylesComponents/ContainerStyle";
 import { ResumeStyle } from "../stylesComponents/ResumeStyle";
+import { imgGithub } from "../styleAux/fontAwesoneIcon";
 
 const Resume = () => {
   const { theme } = useContext(ThemeContext);
+
   return (
     <ContainerStyle theme={theme}>
       <Header />
@@ -78,15 +82,13 @@ const Resume = () => {
             <H3CardStyle theme={theme}>Work experience</H3CardStyle>
             <div>
               <p>
-                En la sección "Projects" los proyectos que he realizado hasta la
-                fecha. Si querés ver todos mis proyectos, accedé a mi{" "}
-                <a
-                  href="https://github.com/vuoso-l/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Github
-                </a>
+                En la sección `&apos;Projects` los proyectos que he realizado
+                hasta la fecha. Si querés ver todos mis proyectos, accedé a mi{" "}
+                <SocialNetwork
+                  url="https://github.com/vuoso-l/"
+                  imgFontAw={imgGithub}
+                  socNetName="GitHub"
+                />
               </p>
               <ExperienceComponent
                 h5="Hospital Italiano de Buenos Aires"
