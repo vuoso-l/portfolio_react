@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+
 import { displayFlex } from "../styleAux/theme";
 
 export const GlobalStyle = createGlobalStyle`

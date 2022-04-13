@@ -3,6 +3,7 @@
 In this repo you can find all my projects. If you want, you can enter to [My Portfolio](https://portfolio-vuoso-lucas.vercel.app/) to see.
 
 ## Used technologies
+
 - React Js:
   - useStates
   - useContext
@@ -11,7 +12,9 @@ In this repo you can find all my projects. If you want, you can enter to [My Por
   - Fontawesone
 
 ## Types of projects
+
 There are four types:
+
 - React Js projects
   - useStates
   - useEffect
@@ -43,5 +46,3 @@ There are four types:
   - SCSS
   - FlexBox
   - Sorms
-
-

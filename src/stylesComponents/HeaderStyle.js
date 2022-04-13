@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 import { device } from "../styleAux/deviceSize";
 import { displayFlex, backgroundHeader } from "../styleAux/theme";
 
