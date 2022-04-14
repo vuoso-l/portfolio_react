@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import { NavigationStyle } from "../stylesComponents/NavegationStyle";
 import ThemeContext from "../context/ThemeContext";
 
+import LanguageSelect from "./LanguageSelect";
+
 const Navegation = () => {
   const { theme } = useContext(ThemeContext);
 
@@ -34,6 +36,7 @@ const Navegation = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      <LanguageSelect />
     </NavigationStyle>
   );
 };
