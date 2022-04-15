@@ -4,11 +4,20 @@ import { Link } from "react-router-dom";
 
 import { NavigationStyle } from "../stylesComponents/NavegationStyle";
 import ThemeContext from "../context/ThemeContext";
+import LanguageContext from "../context/LanguageContext";
+import translation from "../translations/header.json";
 
 import LanguageSelect from "./LanguageSelect";
 
 const Navegation = () => {
   const { theme } = useContext(ThemeContext);
+  const { language } = useContext(LanguageContext);
+
+  let languageCont;
+
+  language === "English"
+    ? (languageCont = translation.contentNavegation.English)
+    : (languageCont = translation.contentNavegation.Espanish);
 
   return (
     <NavigationStyle theme={theme}>
@@ -24,13 +33,13 @@ const Navegation = () => {
                 Lucas Vuoso
               </Link>
               <Link className="link" to={"/projects"}>
-                Projects
+                {languageCont.projects}
               </Link>
               <Link className="link" to={"/contact"}>
-                Contact
+                {languageCont.contact}
               </Link>
               <Link className="link" to={"/resume"}>
-                Resume
+                {languageCont.resume}
               </Link>
             </Nav>
           </Navbar.Collapse>

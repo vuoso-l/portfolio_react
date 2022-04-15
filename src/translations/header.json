@@ -1,10 +1,32 @@
 {
-  "content": {
+  "contentHeader": {
     "English": {
-      "title": "Frontend Developer"
+      "h4": "Frontend Developer"
     },
     "Espanish": {
-      "title": "Desarrollador Frontend"
+      "h4": "Desarrollador Frontend"
+    }
+  },
+  "contentNavegation": {
+    "English": {
+      "projects": "Projects",
+      "contact": "Contact",
+      "resume": "Resume"
+    },
+    "Espanish": {
+      "projects": "Proyectos",
+      "contact": "Contacto",
+      "resume": "Currículum"
+    }
+  },
+  "contentSelect": {
+    "English": {
+      "english": "English",
+      "espanish": "Espanish"
+    },
+    "Espanish": {
+      "english": "Inglés",
+      "espanish": "Español"
     }
   }
 }

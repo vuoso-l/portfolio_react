@@ -1,0 +1,26 @@
+{
+  "contentDescription": {
+    "English": {
+      "h2": "Hello!!",
+      "h3": "A bit about me...",
+      "p": "I am a Frontend Developer, graduated from UTN Buenos Aires (E-learning Center) as a fullStack developer with ReactJS and NodeJS. I am currently finishing the first year of the Certified Tech Developer career sponsored by MercadoLibre, Globant and Digital House."
+    },
+    "Espanish": {
+      "h2": "Hola!!",
+      "h3": "Un poco sobre mí...",
+      "p": "Soy Desarrollador Frontend, egresado de la UTN Buenos Aires (Centro de E-learning) como desarrollador fullStack con ReactJS y NodeJS. Actualmente estoy terminando el primer año de la carrera Certified Tech Developer patrocinada por MercadoLibre, Globant y Digital House."
+    }
+  },
+  "contentNavegation": {
+    "English": {
+      "projects": "Projects",
+      "contact": "Contact",
+      "resume": "Resume"
+    },
+    "Espanish": {
+      "projects": "Proyectos",
+      "contact": "Contacto",
+      "resume": "Currículum"
+    }
+  }
+}

@@ -7,6 +7,8 @@ import Header from "../components/Header";
 import SocialNetwork from "../components/SocialNetwork";
 import TechStackComponent from "../components/TechStackComponent";
 import ThemeContext from "../context/ThemeContext";
+import translation from "../translations/resume.json";
+import LanguageContext from "../context/LanguageContext";
 import { H2CardStyle, H3CardStyle } from "../stylesComponents/BasicTagsStyle";
 import { ContainerStyle } from "../stylesComponents/ContainerStyle";
 import { ResumeStyle } from "../stylesComponents/ResumeStyle";
@@ -14,21 +16,24 @@ import { imgGithub } from "../styleAux/fontAwesoneIcon";
 
 const Resume = () => {
   const { theme } = useContext(ThemeContext);
+  const { language } = useContext(LanguageContext);
+
+  let languageCont;
+
+  console.log(translation);
+  language === "English"
+    ? (languageCont = translation.contentResume.English)
+    : (languageCont = translation.contentResume.Espanish);
 
   return (
     <ContainerStyle theme={theme}>
       <Header />
       <ResumeStyle theme={theme}>
-        <H2CardStyle theme={theme}>Resume</H2CardStyle>
-        <p>
-          I am a pro-active person, willing to face new challenges and
-          constantly trying to improve myself, motivated by teamwork and
-          collaboration environments. I am passionate about nature (mainly
-          mountains) and sports (running and cycling).
-        </p>
+        <H2CardStyle theme={theme}>{languageCont.h2}</H2CardStyle>
+        <p>{languageCont.p}</p>
         <div className="container">
           <section>
-            <H3CardStyle theme={theme}>Tech stack</H3CardStyle>
+            <H3CardStyle theme={theme}>{languageCont.techStack.h3}</H3CardStyle>
             <div>
               <TechStackComponent
                 h4="Frontend"
@@ -40,50 +45,53 @@ const Resume = () => {
                 p="Node Js. - Express | MySql"
               />
               <TechStackComponent
-                h4="Tools"
+                h4={languageCont.techStack.tools}
                 p="GitHub | Agile Methodologies (Lean / Kanvan / Scrum) | Heroku |
             EsLint - Husky - Lint staged | Slack | VisualCode"
               />
             </div>
           </section>
           <section>
-            <H3CardStyle theme={theme}>Academic history</H3CardStyle>
+            <H3CardStyle theme={theme}>
+              {languageCont.academicHistory.h3}
+            </H3CardStyle>
             <div>
               <AcademicComponent
                 h5="Digital House"
-                h6="Certified Tech Developer sponsored by MercadoLibre and Globant"
-                p="June 2021 to present"
+                h6={languageCont.academicHistory.carrerDH}
+                p={languageCont.academicHistory.dateDH}
               />
               <AcademicComponent
                 h5="UTN Buenos Aires"
-                h6="Degree in full stack web programming with React JS"
-                p="August 2021"
+                h6={languageCont.academicHistory.carrerUtn}
+                p={languageCont.academicHistory.dateUtn}
               />
               <AcademicComponent
-                h5="Universidad Nacional de Quilmes"
-                h6="Degree of Occupational Therapy"
-                p="September 2019"
+                h5="Universidad Nacional de Quilmes (UNQUI)"
+                h6={languageCont.academicHistory.carrerUnqui}
+                p={languageCont.academicHistory.dateUnqui}
               />
               <AcademicComponent
                 h5="ISFD n° 101"
-                h6="Physical Education Professor"
-                p="February 2010"
+                h6={languageCont.academicHistory.carrerIsfd}
+                p={languageCont.academicHistory.dateIsfd}
               />
             </div>
           </section>
           <section>
-            <H3CardStyle theme={theme}>Languages</H3CardStyle>
+            <H3CardStyle theme={theme}>{languageCont.languages.h3}</H3CardStyle>
             <div>
-              <p>English - B1 level</p>
-              <p>Italian - beginner level</p>
+              <p>{languageCont.languages.english}</p>
+              <p>{languageCont.languages.italian}</p>
             </div>
           </section>
           <section>
-            <H3CardStyle theme={theme}>Work experience</H3CardStyle>
+            <H3CardStyle theme={theme}>
+              {languageCont.workExperience.h3}
+            </H3CardStyle>
             <div>
               <p>
-                En la sección `&apos;Projects` los proyectos que he realizado
-                hasta la fecha. Si querés ver todos mis proyectos, accedé a mi{" "}
+                {languageCont.workExperience.p}
                 <SocialNetwork
                   url="https://github.com/vuoso-l/"
                   imgFontAw={imgGithub}
@@ -93,9 +101,8 @@ const Resume = () => {
               <ExperienceComponent
                 h5="Hospital Italiano de Buenos Aires"
                 h6="Aprender Salud, Programa Bajando de Peso"
-                p1="Stretching and training classes. Professional in therapeutic groups.
-                Interdisciplinary team."
-                p2="July 2010 to December 2021"
+                p1={languageCont.workExperience.p1HI}
+                p2={languageCont.workExperience.p2HI}
               />
             </div>
           </section>

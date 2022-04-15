@@ -5,7 +5,7 @@ import ThemeContext from "../context/ThemeContext";
 import { imgMoon, imgSun } from "../styleAux/fontAwesoneIcon";
 import { H1Style, H2Style, H4Style } from "../stylesComponents/BasicTagsStyle";
 import { HeaderStyle } from "../stylesComponents/HeaderStyle";
-import content from "../translations/header.json";
+import translation from "../translations/header.json";
 
 import Navegation from "./Navegation";
 
@@ -16,15 +16,15 @@ const Header = () => {
   let languageCont;
 
   language === "English"
-    ? (languageCont = content.content.English)
-    : (languageCont = content.content.Espanish);
+    ? (languageCont = translation.contentHeader.English)
+    : (languageCont = translation.contentHeader.Espanish);
 
   return (
     <>
       <HeaderStyle>
         <div>
           <H2Style>Lucas Vuoso</H2Style>
-          <H4Style>{languageCont.title}</H4Style>
+          <H4Style>{languageCont.h4}</H4Style>
           <H1Style>Portfolio</H1Style>
         </div>
         <label theme={theme}>

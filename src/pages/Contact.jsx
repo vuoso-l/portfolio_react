@@ -4,6 +4,8 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import SocialNetwork from "../components/SocialNetwork";
 import ThemeContext from "../context/ThemeContext";
+import translation from "../translations/contact.json";
+import LanguageContext from "../context/LanguageContext";
 import {
   imgGithub,
   imgLinkedin,
@@ -15,15 +17,20 @@ import { ContainerStyle } from "../stylesComponents/ContainerStyle";
 
 const Contact = () => {
   const { theme } = useContext(ThemeContext);
+  const { language } = useContext(LanguageContext);
+
+  let languageCont;
+
+  language === "English"
+    ? (languageCont = translation.contentContact.English)
+    : (languageCont = translation.contentContact.Espanish);
 
   return (
     <ContainerStyle theme={theme}>
       <Header />
       <ContactStyle theme={theme}>
-        <H2CardStyle theme={theme}>Contact</H2CardStyle>
-        <H3CardStyle theme={theme}>
-          I look forward to hearing from you
-        </H3CardStyle>
+        <H2CardStyle theme={theme}>{languageCont.h2}</H2CardStyle>
+        <H3CardStyle theme={theme}>{languageCont.h3}</H3CardStyle>
         <div>
           <SocialNetwork
             className="anchor"
