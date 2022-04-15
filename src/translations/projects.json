@@ -38,5 +38,13 @@
         "p": "En esta sección podrás visualizar proyectos realizados en HTML5, utilizando diferentes funcionalidades y herramientas como: CSS3, SCSS, FlexBox, formularios, entre otros."
       }
     }
+  },
+  "contentCard": {
+    "English": {
+      "buttonEnter": "Enter"
+    },
+    "Espanish": {
+      "buttonEnter": "Ingresar"
+    }
   }
 }
