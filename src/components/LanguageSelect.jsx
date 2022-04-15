@@ -1,24 +1,22 @@
 import { useContext } from "react";
 
 import LanguageContext from "../context/LanguageContext";
-import ThemeContext from "../context/ThemeContext";
-import translation from "../translations/header.json";
+import spain from "../img/spain.png";
+import uk from "../img/united-kingdom.png";
+import { LanguageSelectStyle } from "../stylesComponents/LanguageSelectStyle";
 
 const LanguageSelect = () => {
-  const { theme } = useContext(ThemeContext);
-  const { language, handleLanguage } = useContext(LanguageContext);
-
-  let languageCont;
-
-  language === "English"
-    ? (languageCont = translation.contentSelect.English)
-    : (languageCont = translation.contentSelect.Espanish);
+  const { handleLanguage } = useContext(LanguageContext);
 
   return (
-    <select theme={theme} value={language} onChange={(e) => handleLanguage(e)}>
-      <option value="English">{languageCont.english}</option>
-      <option value="Espanish">{languageCont.espanish}</option>
-    </select>
+    <LanguageSelectStyle>
+      <button onClick={() => handleLanguage("English")}>
+        <img src={uk} alt="united kingdom flag" />
+      </button>
+      <button onClick={() => handleLanguage("Espanish")}>
+        <img src={spain} alt="united kingdom flag" />
+      </button>
+    </LanguageSelectStyle>
   );
 };
 

@@ -7,12 +7,15 @@ const initialLanguage = "English";
 const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState(initialLanguage);
 
-  const handleLanguage = (e) => {
-    switch (e.target.value) {
+  const handleLanguage = (language) => {
+    console.log(language);
+    switch (language) {
       case "English":
+        console.log("en click");
         setLanguage("English");
         break;
       case "Espanish":
+        console.log("es click");
         setLanguage("Espanish");
         break;
       default:

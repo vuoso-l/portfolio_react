@@ -20,7 +20,6 @@ const Resume = () => {
 
   let languageCont;
 
-  console.log(translation);
   language === "English"
     ? (languageCont = translation.contentResume.English)
     : (languageCont = translation.contentResume.Espanish);

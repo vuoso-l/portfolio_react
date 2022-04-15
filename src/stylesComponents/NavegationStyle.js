@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 import { device } from "../styleAux/deviceSize";
-import { color } from "../styleAux/theme";
+import { color, displayFlex } from "../styleAux/theme";
 
 export const NavigationStyle = styled.div`
+  ${displayFlex("flex", "row", "space-around", "center")};
   width: 100%;
   .toggle {
     background-color: ${({ theme }) =>
