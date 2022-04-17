@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 
 import ThemeContext from "../context/ThemeContext";
-import translation from "../translations/projects.json";
+import translation from "../translations/contentCard.json";
 import LanguageContext from "../context/LanguageContext";
 import { H3CardStyle, ImgStyle } from "../stylesComponents/BasicTagsStyle";
 import { CardStyle } from "../stylesComponents/CardStyle";

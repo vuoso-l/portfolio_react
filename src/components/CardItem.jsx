@@ -1,6 +1,8 @@
 import { useContext } from "react";
 
 import ThemeContext from "../context/ThemeContext";
+import translation from "../translations/contentCard.json";
+import LanguageContext from "../context/LanguageContext";
 import {
   H3CardStyle,
   GralAnchor,
@@ -10,6 +12,13 @@ import { CardStyle } from "../stylesComponents/CardStyle";
 
 const CardItem = ({ name, p, urlImg, urlPage }) => {
   const { theme } = useContext(ThemeContext);
+  const { language } = useContext(LanguageContext);
+
+  let languageCont;
+
+  language === "English"
+    ? (languageCont = translation.contentCard.English)
+    : (languageCont = translation.contentCard.Espanish);
 
   return (
     <CardStyle theme={theme}>
@@ -23,7 +32,7 @@ const CardItem = ({ name, p, urlImg, urlPage }) => {
           target="_blank"
           rel="noreferrer"
         >
-          Enter
+          {languageCont.buttonEnter}
         </a>
       </div>
       <GralAnchor theme={theme} href={urlPage} target="_blank">
