@@ -24,7 +24,7 @@ const ReactProjects = () => {
     <ContainerStyle theme={theme}>
       <Header />
       <main>
-        <CardTitle title="React JS projects" nav="/projects" />
+        <CardTitle title={languageCont.h2} nav="/projects" />
         <CardContainer>
           <CardItem
             name={languageCont.FrontendChallengeAlkemy.name}

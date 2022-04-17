@@ -1,0 +1,26 @@
+{
+  "contentVanillaProjects": {
+    "English": {
+      "h2": "Vanilla Javascript projects",
+      "MantecaHarina": {
+        "name": "Webpage Manteca & Harina",
+        "p": "This project corresponds to the website that I am doing for the company Manteca & Harina. The objective of the creation of the page is to increase the reach to customers and be a place where you can see all the products that are being. The frontend is made with Javascript, CSS3 and HTML applying the concepts of responsive web to optimize the UI. Project technologies and tools: Vanilla Js., FontAwesone, Bootstrap, formularios, Storage, Ajax Fetch and SweetAlert."
+      },
+      "ToDoApp": {
+        "name": "ToDo App",
+        "p": "This project consists of a small task management application, where the following activities can be performed: view pending tasks, view completed tasks, mark a task as completed, create new tasks and view the creation date of a task. In addition to the above, a user authentication system is implemented, which will include the registration and login process. Project technologies and tools: Vanilla Js., formularios, Json y Storage and Ajax Fetch."
+      }
+    },
+    "Espanish": {
+      "h2": "Proyectos Vanilla Javascript",
+      "MantecaHarina": {
+        "name": "Página web Manteca & Harina",
+        "p": "Este proyecto se corresponde a la página web que estoy realizando para la pyme Manteca & Harina. El objetivo de la creación de la página es aumentar el alcance hacia clientes y ser un lugar donde se alojen todos los productos que se van realizando. El frontend está realizado con Javascript, CSS3 y HTML aplicando los conceptos de web reactiva para optimizar la UI. Tecnologías y herramientas de proyectos: Vanilla Js., FontAwesone, Bootstrap, formularios, Storage, Ajax Fetch and SweetAlert."
+      },
+      "ToDoApp": {
+        "name": "App ToDo",
+        "p": "Este proyecto consiste en una pequeña aplicación de gestión de tareas, dentro de la cual se podrán realizar las siguientes actividades: ver tareas pendientes, ver tareas terminadas, marcar una tarea como terminada, crear nuevas tareas y ver la fecha de creación de una tarea. Además de lo anterior, se implementa un sistema de autenticación de usuarios, que incluirá el proceso de registro y login. Tecnologías y herramientas de proyectos: Vanilla Js., formularios, Json y Storage y Ajax Fetch."
+      }
+    }
+  }
+}

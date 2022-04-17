@@ -33,16 +33,16 @@ const Home = () => {
             urlPage="/react-projects"
           />
           <Card
-            name={languageCont.OwnApiProjects.name}
-            p={languageCont.OwnApiProjects.p}
-            urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460718/front-api_r0nve2.png"
-            urlPage="/api-projects"
-          />
-          <Card
             name={languageCont.VanilaJsProjects.name}
             p={languageCont.VanilaJsProjects.p}
             urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460718/html-css-js_lesdpl.png"
             urlPage="/dinamic-projects"
+          />
+          <Card
+            name={languageCont.OwnApiProjects.name}
+            p={languageCont.OwnApiProjects.p}
+            urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460718/front-api_r0nve2.png"
+            urlPage="/api-projects"
           />
           <Card
             name={languageCont.StaticProjects.name}
