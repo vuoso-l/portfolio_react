@@ -7,8 +7,8 @@ import { color } from "../styleAux/theme";
 export const CardStyle = styled.section`
   ${displayFlex("flex", "column", "center", "center")};
   width: 100%;
-  padding-top: 10px;
-  border-bottom: 2px solid lightgrey;
+  padding: 20px 0px;
+  border-bottom: 3px solid lightgrey;
   background: ${({ theme }) =>
     theme === "light" ? color.bgLightCard : color.bgDarkCard};
   div {
@@ -19,9 +19,22 @@ export const CardStyle = styled.section`
       color: ${({ theme }) =>
         theme === "light" ? color.lightParagraph : color.darkParagraph};
       text-align: center;
+      padding: 0px 10px;
+    }
+    .githubAnchor {
+      color: ${({ theme }) =>
+        theme === "light" ? color.lightParagraph : color.darkParagraph};
+      padding: 0px 10px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      box-shadow: 2px 2px 2px
+        ${({ theme }) =>
+          theme === "light" ? color.lightParagraph : color.darkParagraph};
+      width: auto;
     }
     .button {
-      padding: 10px;
+      padding: 5px 10px;
+      margin: 10px 0px;
       color: ${({ theme }) =>
         theme === "light" ? color.lightParagraph : color.darkParagraph};
       background-color: ${color.bgNavigationHome};

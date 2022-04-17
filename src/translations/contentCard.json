@@ -1,10 +1,12 @@
 {
   "contentCard": {
     "English": {
-      "buttonEnter": "Enter"
+      "buttonEnter": "Enter",
+      "githubCode": "Code at GitHub"
     },
     "Espanish": {
-      "buttonEnter": "Ingresar"
+      "buttonEnter": "Ingresar",
+      "githubCode": "Código en Github"
     }
   }
 }

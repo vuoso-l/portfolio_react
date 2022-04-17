@@ -28,6 +28,7 @@ export const H3CardStyle = styled.h3`
   text-align: center;
   color: ${({ theme }) =>
     theme === "light" ? color.titleLightCard : color.titleDarkCard};
+  padding: 0px 10px;
   @media ${device.tablet} {
     width: 100%;
   }

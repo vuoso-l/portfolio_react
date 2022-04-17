@@ -10,7 +10,7 @@ import {
 } from "../stylesComponents/BasicTagsStyle";
 import { CardStyle } from "../stylesComponents/CardStyle";
 
-const CardItem = ({ name, p, urlImg, urlPage }) => {
+const CardItem = ({ name, p, urlGitHub, urlImg, urlPage }) => {
   const { theme } = useContext(ThemeContext);
   const { language } = useContext(LanguageContext);
 
@@ -25,6 +25,15 @@ const CardItem = ({ name, p, urlImg, urlPage }) => {
       <div>
         <H3CardStyle theme={theme}>{name}</H3CardStyle>
         <p theme={theme}>{p}</p>
+        <a
+          className="githubAnchor"
+          theme={theme}
+          href={urlGitHub}
+          target="_blank"
+          rel="noreferrer"
+        >
+          {languageCont.githubCode}
+        </a>
         <a
           className="button"
           theme={theme}
