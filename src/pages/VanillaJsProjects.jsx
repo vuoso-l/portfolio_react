@@ -18,29 +18,16 @@ const VanillaJsProjects = () => {
         <CardTitle title="Vanilla Javascript projects" nav="/projects" />
         <CardContainer>
           <CardItem
+            name="Webpage Manteca & Harina"
+            p="In construction"
+            urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460719/logo_m_h_rdgobd.jpg"
+            urlPage="https://vuoso-l.github.io/client-manteca-y-harina/"
+          />
+          <CardItem
             name="ToDo app"
+            p="In construction"
             urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460720/ToDo_app_wmcnac.png"
             urlPage="https://vuoso-l.github.io/Frontend2/ToDo_inicial"
-          />
-          <CardItem
-            name="The feline family"
-            urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460718/felino_enzj5l.jpg"
-            urlPage="https://vuoso-l.github.io/Frontend2/tema_oscuro_C5S/"
-          />
-          <CardItem
-            name="Parcel SandBox"
-            urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460720/solicitar_img_alnvpz.png"
-            urlPage="https://vuoso-l.github.io/Frontend2/estructura_DOM_templatesLiteral_C6S/"
-          />
-          <CardItem
-            name="Fetch API-get"
-            urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460718/fetch_vbhjqi.jpg"
-            urlPage="https://vuoso-l.github.io/Frontend2/fetch-api-get/"
-          />
-          <CardItem
-            name="Chronometer"
-            urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460718/cronometro_zoeram.jpg"
-            urlPage="https://vuoso-l.github.io/Frontend2/cronometro_C8/"
           />
         </CardContainer>
       </main>
