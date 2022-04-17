@@ -36,6 +36,7 @@ const VanillaJsProjects = () => {
           <CardItem
             name={languageCont.ToDoApp.name}
             p={languageCont.ToDoApp.p}
+            urlGitHub="https://github.com/vuoso-l/Frontend2/tree/main/ToDo_inicial"
             urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460720/ToDo_app_wmcnac.png"
             urlPage="https://vuoso-l.github.io/Frontend2/ToDo_inicial"
           />
