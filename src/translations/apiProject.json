@@ -5,6 +5,10 @@
       "MantecaHarina": {
         "name": "API Rest Manteca & Harina",
         "p": "In this repository you can find the API Rest corresponding to the web page of Manteca & Harina business. A basic CRUD is made to generate the sign in and log in of the administrator so she can only access to upload, modify and/or delete the images of the products. Also, in this case, a CRUD is used. Project technologies and tools: Javascript, NodeJs - Express, MySql, Cloudinary, Deploy in Heroku (PaaS) and Endpoints security."
+      },
+      "apiUtn": {
+        "name": "API Rest - UTN final project",
+        "p": "In this repository you can find the API Rest done in the Degree in full stack web programming with React Js provided by the National Technological University. The project consists in creating a CRUD for a library, where users can reserve books, return them and have a record of all the books they have. Each book and category can implement each function of the CRUD to complement the view of the users and to have the record of the available books. It is done with NodeJS, using API Rest and MySQL database."
       }
     },
     "Espanish": {
@@ -12,6 +16,10 @@
       "MantecaHarina": {
         "name": "API Rest de Manteca & Harina",
         "p": "En este repositorio se encuentra la API Rest correspondiente a la página web de la pyme Manteca & Harina. Se realiza un CRUD básico para generar el sign in y log in de la administradora con el fin de que solo ella pueda acceder a la carga, modificación y/o eliminación de las imágenes de los productos. También, en este caso, se utiliza un CRUD. Tecnologías y herramientas de proyectos: Javascript, NodeJs - Express, MySql, Cloudinary, Deploy in Heroku (PaaS) and Endpoints security."
+      },
+      "apiUtn": {
+        "name": "API Rest - proyecto final UTN",
+        "p": "En este repositorio se encuentra la API Rest realizado en la Diplomatura en programación web full stack con React Js brindado por la Universidad Tecnológica Nacional. El proyecto consiste en realizar un CRUD para una biblioteca, en donde los usuarios puedan reservar libros y devolverlos como también tener un registro de todos los que tienen. Cada libro y categoría puede implementar cada función del CRUD para complementar la vista de los usuarios y tener el registro de los libros disponibles. Se realiza con NodeJS, utilizando API Rest y base de datos MySQL."
       }
     }
   }

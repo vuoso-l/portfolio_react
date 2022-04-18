@@ -29,9 +29,14 @@ const ApiProject = () => {
           <CardItem
             name={languageCont.MantecaHarina.name}
             p={languageCont.MantecaHarina.p}
-            urlGitHub="https://github.com/vuoso-l/api-manteca-y-harina/"
             urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460719/logo_github_uoyzl1.png"
             urlPage="https://github.com/vuoso-l/api-manteca-y-harina/"
+          />
+          <CardItem
+            name={languageCont.apiUtn.name}
+            p={languageCont.apiUtn.p}
+            urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460719/logo_github_uoyzl1.png"
+            urlPage="https://github.com/vuoso-l/utn_NodeJS_grupo1"
           />
         </CardContainer>
       </main>
