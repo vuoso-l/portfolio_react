@@ -41,13 +41,6 @@ const ReactProjects = () => {
             urlPage="https://frontend-challenge-sec.vercel.app/"
           />
           <CardItem
-            name={languageCont.CrudApi.name}
-            p={languageCont.CrudApi.p}
-            urlGitHub="https://github.com/vuoso-l/react-crud-api_curso_jonMircha"
-            urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460718/crud_azv4bt.png"
-            urlPage="https://vuoso-l.github.io/react-crud-api_curso_jonMircha/"
-          />
-          <CardItem
             name={languageCont.MusicSearcher.name}
             p={languageCont.MusicSearcher.p}
             urlGitHub="https://github.com/vuoso-l/react-buscador_canciones_curso_jonMircha"

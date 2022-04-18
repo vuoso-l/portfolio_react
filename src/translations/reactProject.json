@@ -10,13 +10,9 @@
         "name": "Frontend Challenge - Siempre en Casa",
         "p": "This is a beverage sales website where a list is shown with the possibility of adding them to a shopping cart and removing them from it. Project technologies and tools: React Js. (useReducers, useContext, useState, useEffect), Styled-components, React-testing-library and Deploy in Vercel."
       },
-      "CrudApi": {
-        "name": "Crud Api",
-        "p": "In construction."
-      },
       "MusicSearcher": {
         "name": "Music Searcher",
-        "p": "In construction."
+        "p": "This project is a work done in React, in which an API is consumed with Fetch and the results of the search loaded in a Form are shown. It is part of the exercises done in Jonathan Mircha's React course in his Youtube channel. Project technologies and tools: React Js. (useState, useEffect)."
       }
     },
     "Espanish": {
@@ -29,13 +25,9 @@
         "name": "Desafío Frontend - Siempre en Casa",
         "p": "Se trata de una web de ventas de bebidas donde se muestra un listado de las mismas con la posibilidad de poder ser agregadas a un carrito de compras y eliminadas del mismo. Tecnologías y herramientas de proyectos: React Js. (useReducers, useContext, useState, useEffect), Styled-components, React-testing-library y deploy en Vercel."
       },
-      "CrudApi": {
-        "name": "Api Crud",
-        "p": "En construcción."
-      },
       "MusicSearcher": {
         "name": "Buscador de música",
-        "p": "En construcción."
+        "p": "Este proyecto es un trabajo realizado en React, en el cual se consume una API con Fetch y se muestran los resultados de la búsqueda cargada en un Form . Es parte de los ejercicios realizados en el curso de React de Jonathan Mircha en su canal de Youtube. Tecnologías y herramientas de proyectos: React Js. (useState, useEffect)."
       }
     }
   }
