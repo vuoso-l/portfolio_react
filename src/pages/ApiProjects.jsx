@@ -7,23 +7,29 @@ import Header from "../components/Header";
 import { ContainerStyle } from "../stylesComponents/ContainerStyle";
 import CardTitle from "../components/CardTitle";
 import ThemeContext from "../context/ThemeContext";
+import translation from "../translations/apiProject.json";
+import LanguageContext from "../context/LanguageContext";
 
 const ApiProject = () => {
   const { theme } = useContext(ThemeContext);
+  const { language } = useContext(LanguageContext);
+
+  let languageCont;
+
+  language === "English"
+    ? (languageCont = translation.contentApiProjects.English)
+    : (languageCont = translation.contentApiProjects.Espanish);
 
   return (
     <ContainerStyle theme={theme}>
       <Header />
       <main>
-        <CardTitle title="Projects built with our own API" nav="/projects" />
+        <CardTitle title={languageCont.h2} nav="/projects" />
         <CardContainer>
           <CardItem
-            name="Webpage Manteca & Harina"
-            urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460719/logo_m_h_rdgobd.jpg"
-            urlPage="https://vuoso-l.github.io/client-manteca-y-harina/"
-          />
-          <CardItem
-            name="GitHub from the API Rest of M & H"
+            name={languageCont.MantecaHarina.name}
+            p={languageCont.MantecaHarina.p}
+            urlGitHub="https://github.com/vuoso-l/api-manteca-y-harina/"
             urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460719/logo_github_uoyzl1.png"
             urlPage="https://github.com/vuoso-l/api-manteca-y-harina/"
           />
