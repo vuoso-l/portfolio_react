@@ -27,15 +27,21 @@ const ApiProject = () => {
         <CardTitle title={languageCont.h2} nav="/projects" />
         <CardContainer>
           <CardItem
+            name={languageCont.DentalClinic.name}
+            p={languageCont.DentalClinic.p}
+            urlImg="https://res.cloudinary.com/lupevu/image/upload/v1650408155/dentalclinic_s5s59q.jpg"
+            urlPage="https://github.com/vuoso-l/finalProject_backend-I"
+          />
+          <CardItem
             name={languageCont.MantecaHarina.name}
             p={languageCont.MantecaHarina.p}
-            urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460719/logo_github_uoyzl1.png"
+            urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460719/logo_m_h_rdgobd.jpg"
             urlPage="https://github.com/vuoso-l/api-manteca-y-harina/"
           />
           <CardItem
             name={languageCont.apiUtn.name}
             p={languageCont.apiUtn.p}
-            urlImg="https://res.cloudinary.com/lupevu/image/upload/v1643460719/logo_github_uoyzl1.png"
+            urlImg="https://res.cloudinary.com/lupevu/image/upload/v1650408162/biblioteca_ikqmds.jpg"
             urlPage="https://github.com/vuoso-l/utn_NodeJS_grupo1"
           />
         </CardContainer>

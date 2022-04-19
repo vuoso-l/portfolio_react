@@ -2,6 +2,10 @@
   "contentApiProjects": {
     "English": {
       "h2": "API Rest projects",
+      "DentalClinic": {
+        "name": "API Rest Dental Clinic",
+        "p": "In this repository you can find the API Rest corresponding to the final project of Backend-I from the Certified Tech Developer course. A system is implemented to manage the reservation of appointments for a dental clinic. The requirements include the administration of dentists and patients, the registration of appointments and the log-in. Technologies and project tools: Spring Boot, MVC pattern, ORM, Spring data - Hibernate, HQL, Exception handling with Logging and Endpoint security based on JWT tokens."
+      },
       "MantecaHarina": {
         "name": "API Rest Manteca & Harina",
         "p": "In this repository you can find the API Rest corresponding to the web page of Manteca & Harina business. A basic CRUD is made to generate the sign in and log in of the administrator so she can only access to upload, modify and/or delete the images of the products. Also, in this case, a CRUD is used. Project technologies and tools: Javascript, NodeJs - Express, MySql, Cloudinary, Deploy in Heroku (PaaS) and Endpoints security."
@@ -13,6 +17,10 @@
     },
     "Espanish": {
       "h2": "Proyectos API Rest",
+      "DentalClinic": {
+        "name": "API Rest de Clínica odontológica",
+        "p": "En este repositorio se encuentra la API Rest correspondiente al trabajo final de Backend-I de la carrera Certified Tech Developer. Se implementa un sistema que permite administrar la reserva de turnos para una clínica odontológica. Dentro de los requerimientos se encuentra la administración de odontólogos y pacientes, el registro de turnos y el log-in. Tecnologías y herramientas de proyectos: Spring Boot, Patrón MVC, ORM, Spring data - Hibernate, HQL, Manejo de excepciones con Logging y Endpoint security basado en tokens JWT."
+      },
       "MantecaHarina": {
         "name": "API Rest de Manteca & Harina",
         "p": "En este repositorio se encuentra la API Rest correspondiente a la página web de la pyme Manteca & Harina. Se realiza un CRUD básico para generar el sign in y log in de la administradora con el fin de que solo ella pueda acceder a la carga, modificación y/o eliminación de las imágenes de los productos. También, en este caso, se utiliza un CRUD. Tecnologías y herramientas de proyectos: Javascript, NodeJs - Express, MySql, Cloudinary, Deploy in Heroku (PaaS) and Endpoints security."
