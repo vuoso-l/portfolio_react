@@ -63,6 +63,7 @@ const Resume = () => {
               <AcademicComponent
                 h5="UTN Buenos Aires"
                 h6={languageCont.academicHistory.carrerUtn}
+                urlCredential="https://sigead.utnba.centrodeelearning.com/alumnos/validar_certificado"
                 p={languageCont.academicHistory.dateUtn}
               />
               <AcademicComponent

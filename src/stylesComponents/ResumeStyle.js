@@ -23,12 +23,22 @@ export const ResumeStyle = styled.div`
       p,
       h4,
       h5,
-      h6 {
+      h6,
+      a {
         color: ${({ theme }) =>
           theme === "light" ? color.titleLightCard : color.titleDarkCard};
       }
       p {
         text-align: center;
+      }
+      a {
+        padding: 0px 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px
+          ${({ theme }) =>
+            theme === "light" ? color.lightParagraph : color.darkParagraph};
+        width: auto;
       }
     }
   }
