@@ -23,18 +23,14 @@ There are four types:
   - react-router
   - Styled-components
   - Fontawesone
-- Javascript project with own API Rest
+- Projects built with our own API
   - Javascript
-  - HTML5
-  - CSS3
-  - Async with Fetch
-  - Fontawesone
-  - Bootstrap
+  - Asynchronism
+  - Java - Spring Boot
   - NodeJs - Express
   - MySql
-  - Cloudinary
   - Deploy in Heroku (PaaS)
-  - Endpoints security
+  - Endpoints security with JWT
 - Javascript projects
   - Reactive web
   - Forms
