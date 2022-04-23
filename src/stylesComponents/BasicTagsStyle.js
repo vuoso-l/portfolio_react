@@ -87,3 +87,22 @@ export const GralAnchor = styled.a`
     padding: 40px 0px;
   }
 `;
+
+export const ButtonDownload = styled.button`
+  padding: 4px;
+  font-size: 14px;
+  color: ${({ theme }) =>
+    theme === "light" ? color.lightParagraph : color.darkParagraph};
+  background-color: ${color.bgNavigationHome};
+  border-radius: 70px;
+  &:hover {
+    background-color: ${({ theme }) =>
+      theme === "light" ? color.bgLightButton : color.bgDarkButton};
+    color: ${({ theme }) =>
+      theme === "light" ? color.darkParagraph : color.lightParagraph};
+  }
+  @media ${device.tablet} {
+    padding: 6px;
+    font-size: 16px;
+  }
+`;

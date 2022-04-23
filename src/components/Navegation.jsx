@@ -8,6 +8,7 @@ import LanguageContext from "../context/LanguageContext";
 import translation from "../translations/header.json";
 
 import LanguageSelect from "./LanguageSelect";
+import BtnDownload from "./BtnDownload";
 
 const Navegation = () => {
   const { theme } = useContext(ThemeContext);
@@ -45,6 +46,7 @@ const Navegation = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      <BtnDownload />
       <LanguageSelect />
     </NavigationStyle>
   );

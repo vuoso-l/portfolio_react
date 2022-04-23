@@ -28,5 +28,13 @@
       "english": "Inglés",
       "espanish": "Español"
     }
+  },
+  "buttonDownload": {
+    "English": {
+      "btn": "Download CV"
+    },
+    "Espanish": {
+      "btn": "Descargar CV"
+    }
   }
 }

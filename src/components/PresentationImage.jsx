@@ -1,4 +1,4 @@
-import imgPortfolio from "../img/img_portfolio.jpg";
+import imgPortfolio from "../assets/img/img_portfolio.jpg";
 import { ImgPresentation } from "../stylesComponents/BasicTagsStyle";
 
 const ImagePresentation = () => {

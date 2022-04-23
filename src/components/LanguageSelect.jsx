@@ -1,8 +1,8 @@
 import { useContext } from "react";
 
 import LanguageContext from "../context/LanguageContext";
-import spain from "../img/spain.png";
-import uk from "../img/united-kingdom.png";
+import spain from "../assets/img/spain.png";
+import uk from "../assets/img/united-kingdom.png";
 import { LanguageSelectStyle } from "../stylesComponents/LanguageSelectStyle";
 
 const LanguageSelect = () => {
