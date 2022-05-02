@@ -3,11 +3,11 @@
     "English": {
       "h2": "React JS projects",
       "FrontendChallengeAlkemy": {
-        "name": "Frontend Challenge - Alkemy",
+        "name": "Menu assembly website",
         "p": "This is a menu assembly website where you can select, through a search engine, different options. Before doing so, it is necessary to log in with an account (User email: lucaschallenge@gmail.com and User password: challenge1234). Project technologies and tools: React Js. (useContext, useState, useEffect), Axios, Styled-components, Eslint, Prettier, Husky y lint-staged, SweetAlert and Deploy in Vercel."
       },
       "FrontendChallengeSec": {
-        "name": "Frontend Challenge - Siempre en Casa",
+        "name": "Beverage sales website",
         "p": "This is a beverage sales website where a list is shown with the possibility of adding them to a shopping cart and removing them from it. Project technologies and tools: React Js. (useReducers, useContext, useState, useEffect), Styled-components, React-testing-library and Deploy in Vercel."
       },
       "MusicSearcher": {
@@ -18,11 +18,11 @@
     "Espanish": {
       "h2": "Proyectos React Js",
       "FrontendChallengeAlkemy": {
-        "name": "Desafío Frontend - Alkemy",
+        "name": "Web de armado de menús",
         "p": "Se trata de una web de armado de menús donde se pueden seleccionar, a través de un buscador, diferentes opciones. Previo a realizarlo, es necesario el inicio de sesión con una cuenta (email usuario: lucaschallenge@gmail.com y contraseña usuario: challenge1234). Tecnologías y herramientas de proyectos: React Js. (useContext, useState, useEffect), Axios, Styled-components, Eslint, Prettier, Husky y lint-staged, SweetAlert, Deploy in Vercel."
       },
       "FrontendChallengeSec": {
-        "name": "Desafío Frontend - Siempre en Casa",
+        "name": "Sitio web de venta de bebidas",
         "p": "Se trata de una web de ventas de bebidas donde se muestra un listado de las mismas con la posibilidad de poder ser agregadas a un carrito de compras y eliminadas del mismo. Tecnologías y herramientas de proyectos: React Js. (useReducers, useContext, useState, useEffect), Styled-components, React-testing-library y deploy en Vercel."
       },
       "MusicSearcher": {

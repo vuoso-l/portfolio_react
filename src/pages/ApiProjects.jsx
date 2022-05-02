@@ -30,7 +30,7 @@ const ApiProject = () => {
             name={languageCont.DentalClinic.name}
             p={languageCont.DentalClinic.p}
             urlImg="https://res.cloudinary.com/lupevu/image/upload/v1650408155/dentalclinic_s5s59q.jpg"
-            urlPage="https://github.com/vuoso-l/finalProject_backend-I"
+            urlPage="https://github.com/vuoso-l/dentalClinic-API"
           />
           <CardItem
             name={languageCont.MantecaHarina.name}
