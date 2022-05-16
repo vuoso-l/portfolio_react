@@ -36,7 +36,7 @@ const Resume = () => {
             <div>
               <TechStackComponent
                 h4="Frontend"
-                p="Javascript | ReactJS | HTML5 | CSS3 / SCSS / Styled-components"
+                p="Javascript | ReactJS | HTML5 | CSS3 / SCSS / Styled-components | UX - UI"
               />
               <TechStackComponent h4="Backend" p="Java - Spring Boot" />
               <TechStackComponent
@@ -45,7 +45,7 @@ const Resume = () => {
               />
               <TechStackComponent
                 h4={languageCont.techStack.tools}
-                p="GitHub | Agile Methodologies (Lean / Kanvan / Scrum) | Heroku |
+                p="GitHub | Agile Methodologies (Scrum) | Heroku |
             EsLint - Husky - Lint staged | Slack | VisualCode"
               />
             </div>
