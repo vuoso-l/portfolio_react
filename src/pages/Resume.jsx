@@ -32,6 +32,31 @@ const Resume = () => {
         <p>{languageCont.p}</p>
         <div className="container">
           <section>
+            <H3CardStyle theme={theme}>{languageCont.workExperience.h3}</H3CardStyle>
+            <div>
+              <ExperienceComponent
+                h5="Imajine Studio"
+                h6="Frontend Developer"
+                p1={languageCont.workExperience.p1IS}
+                p2={languageCont.workExperience.p2IS}
+              />
+              <ExperienceComponent
+                h5="Hospital Italiano de Buenos Aires"
+                h6="Aprender Salud, Programa Bajando de Peso"
+                p1={languageCont.workExperience.p1HI}
+                p2={languageCont.workExperience.p2HI}
+              />
+              <p>
+                {languageCont.workExperience.p}
+                <SocialNetwork
+                  url="https://github.com/vuoso-l/"
+                  imgFontAw={imgGithub}
+                  socNetName="GitHub"
+                />
+              </p>
+            </div>
+          </section>
+          <section>
             <H3CardStyle theme={theme}>{languageCont.techStack.h3}</H3CardStyle>
             <div>
               <TechStackComponent
@@ -39,10 +64,7 @@ const Resume = () => {
                 p="Javascript | ReactJS | HTML5 | CSS3 / SCSS / Styled-components | UX - UI"
               />
               <TechStackComponent h4="Backend" p="Java - Spring Boot" />
-              <TechStackComponent
-                h4="FullStack"
-                p="Node Js. - Express | MySql"
-              />
+              <TechStackComponent h4="FullStack" p="Node Js. - Express | MySql" />
               <TechStackComponent
                 h4={languageCont.techStack.tools}
                 p="GitHub | Agile Methodologies (Scrum) | Heroku |
@@ -51,9 +73,7 @@ const Resume = () => {
             </div>
           </section>
           <section>
-            <H3CardStyle theme={theme}>
-              {languageCont.academicHistory.h3}
-            </H3CardStyle>
+            <H3CardStyle theme={theme}>{languageCont.academicHistory.h3}</H3CardStyle>
             <div>
               <AcademicComponent
                 h5="Digital House"
@@ -83,27 +103,6 @@ const Resume = () => {
             <div>
               <p>{languageCont.languages.english}</p>
               <p>{languageCont.languages.italian}</p>
-            </div>
-          </section>
-          <section>
-            <H3CardStyle theme={theme}>
-              {languageCont.workExperience.h3}
-            </H3CardStyle>
-            <div>
-              <p>
-                {languageCont.workExperience.p}
-                <SocialNetwork
-                  url="https://github.com/vuoso-l/"
-                  imgFontAw={imgGithub}
-                  socNetName="GitHub"
-                />
-              </p>
-              <ExperienceComponent
-                h5="Hospital Italiano de Buenos Aires"
-                h6="Aprender Salud, Programa Bajando de Peso"
-                p1={languageCont.workExperience.p1HI}
-                p2={languageCont.workExperience.p2HI}
-              />
             </div>
           </section>
         </div>

@@ -36,7 +36,7 @@ module.exports = {
         bracketSpacing: true,
         arrowParens: "always",
         endOfLine: "auto",
-        printWidth: 80,
+        printWidth: 100,
       },
     ],
     "arrow-body-style": "off",
@@ -52,16 +52,7 @@ module.exports = {
     "import/order": [
       "error",
       {
-        groups: [
-          "type",
-          "builtin",
-          "object",
-          "external",
-          "internal",
-          "parent",
-          "sibling",
-          "index",
-        ],
+        groups: ["type", "builtin", "object", "external", "internal", "parent", "sibling", "index"],
         pathGroups: [
           {
             pattern: "~/**",

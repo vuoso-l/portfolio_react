@@ -10,7 +10,7 @@
       "academicHistory": {
         "h3": "Academic history",
         "carrerDH": "Certified Tech Developer sponsored by MercadoLibre and Globant",
-        "dateDH": "June 2021 to present",
+        "dateDH": "July 2022",
         "carrerUtn": "Degree in full stack web programming with React JS. Credential ID: CER-VSORA6FT-579548",
         "dateUtn": "August 2021",
         "carrerUnqui": "Degree of Occupational Therapy",
@@ -26,6 +26,8 @@
       "workExperience": {
         "h3": "Work experience",
         "p": "In the section Projects you will find the projects that I have done to date. If you want to see all my projects, please access to my",
+        "p1IS": "Tech stack: React.js · Redux toolkit · Bootstrap · JavaScript.",
+        "p2IS": "August 2022 to present",
         "p1HI": "Stretching and training classes. Professional in therapeutic groups. Interdisciplinary team.",
         "p2HI": "July 2010 to December 2021"
       }
@@ -40,7 +42,7 @@
       "academicHistory": {
         "h3": "Historial académico",
         "carrerDH": "Certified Tech Developer patrocinada por MercadoLibre y Globant",
-        "dateDH": "Junio 2021 a la actualidad",
+        "dateDH": "Julio 2022",
         "carrerUtn": "Diplomatura en programación web full stack con React JS. ID de la credencial: CER-VSORA6FT-579548",
         "dateUtn": "Agosto 2021",
         "carrerUnqui": "Licenciatura en Terapia Ocupacional",
@@ -56,6 +58,8 @@
       "workExperience": {
         "h3": "Experiencia laboral",
         "p": "En la sección Projects encontrarás los proyectos que he realizado hasta la fecha. Si querés ver todos mis proyectos, accedé a mi",
+        "p1IS": "Tech stack: React.js · Redux toolkit · Bootstrap · JavaScript.",
+        "p2IS": "Agosto 2022 a la actualidad",
         "p1HI": "Clases de estiramiento y entrenamiento. Profesional en grupos terapéuticos. Equipo interdisciplinario.",
         "p2HI": "Julio 2010 hasta diciembre 2021"
       }
