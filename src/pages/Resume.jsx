@@ -32,7 +32,9 @@ const Resume = () => {
         <p>{languageCont.p}</p>
         <div className="container">
           <section>
-            <H3CardStyle theme={theme}>{languageCont.workExperience.h3}</H3CardStyle>
+            <H3CardStyle theme={theme}>
+              {languageCont.workExperience.h3}
+            </H3CardStyle>
             <div>
               <ExperienceComponent
                 h5="Imajine Studio"
@@ -64,7 +66,10 @@ const Resume = () => {
                 p="Javascript | ReactJS | HTML5 | CSS3 / SCSS / Styled-components | UX - UI"
               />
               <TechStackComponent h4="Backend" p="Java - Spring Boot" />
-              <TechStackComponent h4="FullStack" p="Node Js. - Express | MySql" />
+              <TechStackComponent
+                h4="FullStack"
+                p="Node Js. - Express | MySql"
+              />
               <TechStackComponent
                 h4={languageCont.techStack.tools}
                 p="GitHub | Agile Methodologies (Scrum) | Heroku |
@@ -73,7 +78,9 @@ const Resume = () => {
             </div>
           </section>
           <section>
-            <H3CardStyle theme={theme}>{languageCont.academicHistory.h3}</H3CardStyle>
+            <H3CardStyle theme={theme}>
+              {languageCont.academicHistory.h3}
+            </H3CardStyle>
             <div>
               <AcademicComponent
                 h5="Digital House"
