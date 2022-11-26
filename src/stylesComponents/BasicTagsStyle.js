@@ -19,13 +19,15 @@ export const H2Style = styled.h2`
 `;
 
 export const H2CardStyle = styled(H2Style)`
-  color: ${({ theme }) => (theme === "light" ? color.titleLightCard : color.titleDarkCard)};
+  color: ${({ theme }) =>
+    theme === "light" ? color.titleLightCard : color.titleDarkCard};
 `;
 
 export const H3CardStyle = styled.h3`
   text-shadow: 4px 4px 4px grey;
   text-align: center;
-  color: ${({ theme }) => (theme === "light" ? color.titleLightCard : color.titleDarkCard)};
+  color: ${({ theme }) =>
+    theme === "light" ? color.titleLightCard : color.titleDarkCard};
   padding: 0px 10px;
   @media ${device.tablet} {
     width: 100%;
@@ -89,13 +91,15 @@ export const GralAnchor = styled.a`
 export const ButtonDownload = styled.button`
   padding: 4px;
   font-size: 14px;
-  color: ${({ theme }) => (theme === "light" ? color.lightParagraph : color.darkParagraph)};
+  color: ${({ theme }) =>
+    theme === "light" ? color.lightParagraph : color.darkParagraph};
   background-color: ${color.bgNavigationHome};
   border-radius: 70px;
   &:hover {
     background-color: ${({ theme }) =>
       theme === "light" ? color.bgLightButton : color.bgDarkButton};
-    color: ${({ theme }) => (theme === "light" ? color.darkParagraph : color.lightParagraph)};
+    color: ${({ theme }) =>
+      theme === "light" ? color.darkParagraph : color.lightParagraph};
   }
   @media ${device.tablet} {
     padding: 6px;
