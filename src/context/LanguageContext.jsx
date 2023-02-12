@@ -2,18 +2,18 @@ import { createContext, useState } from "react";
 
 const LanguageContext = createContext();
 
-const initialLanguage = "English";
+const initialLanguage = "english";
 
 const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState(initialLanguage);
 
   const handleLanguage = (language) => {
     switch (language) {
-      case "English":
-        setLanguage("English");
+      case "english":
+        setLanguage("english");
         break;
-      case "Espanish":
-        setLanguage("Espanish");
+      case "spanish":
+        setLanguage("spanish");
         break;
       default:
         break;

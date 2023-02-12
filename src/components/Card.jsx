@@ -13,9 +13,9 @@ const Card = ({ name, p, urlImg, urlPage }) => {
 
   let languageCont;
 
-  language === "English"
-    ? (languageCont = translation.contentCard.English)
-    : (languageCont = translation.contentCard.Espanish);
+  language === "english"
+    ? (languageCont = translation.contentCard.english)
+    : (languageCont = translation.contentCard.spanish);
 
   return (
     <CardStyle theme={theme}>

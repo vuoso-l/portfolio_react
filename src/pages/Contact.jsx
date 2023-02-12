@@ -21,9 +21,9 @@ const Contact = () => {
 
   let languageCont;
 
-  language === "English"
-    ? (languageCont = translation.contentContact.English)
-    : (languageCont = translation.contentContact.Espanish);
+  language === "english"
+    ? (languageCont = translation.contentContact.english)
+    : (languageCont = translation.contentContact.spanish);
 
   return (
     <ContainerStyle theme={theme}>

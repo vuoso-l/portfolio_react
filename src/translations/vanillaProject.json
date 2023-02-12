@@ -1,17 +1,17 @@
 {
   "contentVanillaProjects": {
-    "English": {
+    "english": {
       "h2": "Vanilla Javascript projects",
       "MantecaHarina": {
         "name": "Webpage Manteca & Harina",
-        "p": "This project corresponds to the website that I am doing for the company Manteca & Harina. The objective of the creation of the page is to increase the reach to customers and be a place where you can see all the products that are being. The frontend is made with Javascript, CSS3 and HTML applying the concepts of responsive web to optimize the UI. Project technologies and tools: Vanilla Js., FontAwesone, Bootstrap, formularios, Storage, Ajax Fetch and SweetAlert."
+        "p": "This project corresponds to the website that I'm doing for the company Manteca & Harina. The objective of the creation of the page is to increase the reach to customers and be a place where you can see all the products that are being. The frontend is made with Javascript, CSS3 and HTML applying the concepts of responsive web to optimize the UI. Project technologies and tools: Vanilla Js., FontAwesone, Bootstrap, formularios, Storage, Ajax Fetch and SweetAlert."
       },
       "ToDoApp": {
         "name": "ToDo App",
         "p": "This project consists of a small task management application, where the following activities can be performed: view pending tasks, view completed tasks, mark a task as completed, create new tasks and view the creation date of a task. In addition to the above, a user authentication system is implemented, which will include the registration and login process. Project technologies and tools: Vanilla Js., formularios, Json y Storage and Ajax Fetch."
       }
     },
-    "Espanish": {
+    "spanish": {
       "h2": "Proyectos Vanilla Javascript",
       "MantecaHarina": {
         "name": "Página web Manteca & Harina",

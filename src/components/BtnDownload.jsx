@@ -5,7 +5,7 @@ import ThemeContext from "../context/ThemeContext";
 import LanguageContext from "../context/LanguageContext";
 import translation from "../translations/header.json";
 import cvSpanish from "../assets/files/CV-Lucas_Vuoso.pdf";
-import cvEnglish from "../assets/files/Resume-Lucas_Vuoso.pdf";
+import cvenglish from "../assets/files/Resume-Lucas_Vuoso.pdf";
 
 const BtnDownload = () => {
   const { theme } = useContext(ThemeContext);
@@ -13,18 +13,18 @@ const BtnDownload = () => {
 
   let languageCont;
 
-  language === "English"
-    ? (languageCont = translation.buttonDownload.English)
-    : (languageCont = translation.buttonDownload.Espanish);
+  language === "english"
+    ? (languageCont = translation.buttonDownload.english)
+    : (languageCont = translation.buttonDownload.spanish);
 
   return (
     <ButtonDownload theme={theme}>
       <a
-        href={language === "English" ? cvEnglish : cvSpanish}
+        href={language === "english" ? cvenglish : cvSpanish}
         target="_blank"
         rel="noopener noreferrer"
         download={
-          language === "English" ? "Resume - Lucas Vuoso" : "CV - Lucas Vuoso"
+          language === "english" ? "Resume - Lucas Vuoso" : "CV - Lucas Vuoso"
         }
       >
         {languageCont.btn}

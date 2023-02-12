@@ -1,25 +1,25 @@
 {
   "contentProjects": {
-    "English": {
+    "english": {
       "h2": "Projects",
       "ReactProjects": {
         "name": "React JS projects",
-        "p": "In this section you will be able to visualize projects made with React Js, using different functionalities and tools such as: useStates, useEffect, useContext, useReducers, react-router, styled-components, fontAwesone, linters, among others."
+        "p": "In this section you'll be able to visualize projects made with React Js, using different functionalities and tools such as: useStates, useEffect, useContext, useReducers, react-router, styled-components, fontAwesone, linters, among others."
       },
       "OwnApiProjects": {
         "name": "Projects built with our own API",
-        "p": "In this section you will be able to visualize projects made with React Js. as well as with Vanilla Js., using own Api Rest created with Node Js. - Express and Java - Spring Boot."
+        "p": "In this section you'll be able to visualize projects made with React Js. as well as with Vanilla Js., using own Api Rest created with Node Js. - Express and Java - Spring Boot."
       },
       "VanilaJsProjects": {
         "name": "Vanilla Javascript projects",
-        "p": "In this section you will be able to visualize projects made with Vanilla Js, using different functionalities and tools such as: reactive web, forms, DOM manipulation, asynchronous Fetch requests and APIs, among others."
+        "p": "In this section you'll be able to visualize projects made with Vanilla Js, using different functionalities and tools such as: reactive web, forms, DOM manipulation, asynchronous Fetch requests and APIs, among others."
       },
       "StaticProjects": {
         "name": "Static projects",
-        "p": "In this section you will be able to visualize projects made in HTML5, using different functionalities and tools such as: CSS3, SCSS, FlexBox, forms, among others."
+        "p": "In this section you'll be able to visualize projects made in HTML5, using different functionalities and tools such as: CSS3, SCSS, FlexBox, forms, among others."
       }
     },
-    "Espanish": {
+    "spanish": {
       "h2": "Proyectos",
       "ReactProjects": {
         "name": "Proyectos de React JS",

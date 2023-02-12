@@ -16,9 +16,9 @@ const ApiProject = () => {
 
   let languageCont;
 
-  language === "English"
-    ? (languageCont = translation.contentApiProjects.English)
-    : (languageCont = translation.contentApiProjects.Espanish);
+  language === "english"
+    ? (languageCont = translation.contentApiProjects.english)
+    : (languageCont = translation.contentApiProjects.spanish);
 
   return (
     <ContainerStyle theme={theme}>

@@ -20,9 +20,9 @@ const Resume = () => {
 
   let languageCont;
 
-  language === "English"
-    ? (languageCont = translation.contentResume.English)
-    : (languageCont = translation.contentResume.Espanish);
+  language === "english"
+    ? (languageCont = translation.contentResume.english)
+    : (languageCont = translation.contentResume.spanish);
 
   return (
     <ContainerStyle theme={theme}>
@@ -91,6 +91,7 @@ const Resume = () => {
                 h5="UTN Buenos Aires"
                 h6={languageCont.academicHistory.carrerUtn}
                 urlCredential="https://sigead.utnba.centrodeelearning.com/alumnos/validar_certificado"
+                credentialP={languageCont.academicHistory.credentialP}
                 p={languageCont.academicHistory.dateUtn}
               />
               <AcademicComponent

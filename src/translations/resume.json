@@ -1,8 +1,8 @@
 {
   "contentResume": {
-    "English": {
+    "english": {
       "h2": "Resume",
-      "p": "I am a Frontend Developer, graduated from UTN Buenos Aires (E-learning Center) as a fullStack developer with ReactJS and NodeJS. I am currently finishing the first year of the Certified Tech Developer career sponsored by MercadoLibre, Globant and Digital House.",
+      "p": "I'm a Frontend Developer, graduated from UTN Buenos Aires (E-learning Center) as a fullStack developer with ReactJS and NodeJS. I've finished the first year of the Certified Tech Developer career sponsored by MercadoLibre, Globant and Digital House.",
       "techStack": {
         "h3": "Tech stack",
         "tools": "Tools"
@@ -16,7 +16,8 @@
         "carrerUnqui": "Degree of Occupational Therapy",
         "dateUnqui": "September 2019",
         "carrerIsfd": "Physical Education Professor",
-        "dateIsfd": "February 2010"
+        "dateIsfd": "February 2010",
+        "credentialP": "URL to verify credential"
       },
       "languages": {
         "h3": "Languages",
@@ -25,14 +26,14 @@
       },
       "workExperience": {
         "h3": "Work experience",
-        "p": "In the section Projects you will find the projects that I have done to date. If you want to see all my projects, please access to my",
+        "p": "In the section Projects you'll find the projects that I've done to date. If you want to see all my projects, please access to my",
         "p1IS": "Tech stack: React.js · Redux toolkit · Bootstrap · JavaScript.",
         "p2IS": "August 2022 to present",
         "p1HI": "Stretching and training classes. Professional in therapeutic groups. Interdisciplinary team.",
         "p2HI": "July 2010 to December 2021"
       }
     },
-    "Espanish": {
+    "spanish": {
       "h2": "Currículum",
       "p": "Soy Desarrollador Frontend, egresado de la UTN Buenos Aires (Centro de E-learning) como desarrollador fullStack con ReactJS y NodeJS. Actualmente estoy terminando el primer año de la carrera Certified Tech Developer patrocinada por MercadoLibre, Globant y Digital House.",
       "techStack": {
@@ -48,7 +49,8 @@
         "carrerUnqui": "Licenciatura en Terapia Ocupacional",
         "dateUnqui": "Septiembre 2019",
         "carrerIsfd": "Profesor de Educación Física",
-        "dateIsfd": "Febrero 2010"
+        "dateIsfd": "Febrero 2010",
+        "credentialP": "URL para corroborar la credencial"
       },
       "languages": {
         "h3": "Lenguajes",

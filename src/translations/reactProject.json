@@ -1,10 +1,10 @@
 {
   "contentReactProjects": {
-    "English": {
+    "english": {
       "h2": "React JS projects",
       "FrontendChallengeAlkemy": {
         "name": "Menu assembly website",
-        "p": "This is a menu assembly website where you can select, through a search engine, different options. Before doing so, it is necessary to log in with an account (User email: lucaschallenge@gmail.com and User password: challenge1234). Project technologies and tools: React Js. (useContext, useState, useEffect), Axios, Styled-components, Eslint, Prettier, Husky y lint-staged, SweetAlert and Deploy in Vercel."
+        "p": "This is a menu assembly website where you can select, through a search engine, different options. Before doing so, it's necessary to log in with an account (User email: lucaschallenge@gmail.com and User password: challenge1234). Project technologies and tools: React Js. (useContext, useState, useEffect), Axios, Styled-components, Eslint, Prettier, Husky y lint-staged, SweetAlert and Deploy in Vercel."
       },
       "FrontendChallengeSec": {
         "name": "Beverage sales website",
@@ -12,10 +12,10 @@
       },
       "MusicSearcher": {
         "name": "Music Searcher",
-        "p": "This project is a work done in React, in which an API is consumed with Fetch and the results of the search loaded in a Form are shown. It is part of the exercises done in Jonathan Mircha's React course in his Youtube channel. Project technologies and tools: React Js. (useState, useEffect)."
+        "p": "This project is a work done in React, in which an API is consumed with Fetch and the results of the search loaded in a Form are shown. It's part of the exercises done in Jonathan Mircha's React course in his Youtube channel. Project technologies and tools: React Js. (useState, useEffect)."
       }
     },
-    "Espanish": {
+    "spanish": {
       "h2": "Proyectos React Js",
       "FrontendChallengeAlkemy": {
         "name": "Web de armado de menús",

@@ -12,9 +12,9 @@ const HomeNavegation = () => {
 
   let languageCont;
 
-  language === "English"
-    ? (languageCont = translation.contentNavegation.English)
-    : (languageCont = translation.contentNavegation.Espanish);
+  language === "english"
+    ? (languageCont = translation.contentNavegation.english)
+    : (languageCont = translation.contentNavegation.spanish);
 
   return (
     <HomeNavigationStyle theme={theme}>

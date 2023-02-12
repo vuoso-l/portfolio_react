@@ -1,23 +1,23 @@
 {
   "contentDescription": {
-    "English": {
+    "english": {
       "h2": "Hello!!",
       "h3": "A bit about me...",
-      "p": "I consider myself a very dedicated person with everything I do and with all the challenges that come my way. In addition, I am a very companionable person who always takes advantage of opportunities to learn from my colleagues as well as to advise them at the same time. That is why, motivated by teamwork and collaboration environments. I am passionate about nature (mainly mountains), sports (running and cycling) and everything about posture / ergonomics."
+      "p": "I consider myself a very dedicated person with everything I do and with all the challenges that come my way. In addition, I'm a very companionable person who always takes advantage of the opportunities to learn from my colleagues as well as to advise them at the same time. That is why I feel motivated by teamwork and collaboration environments. I'm passionate about nature (mainly mountains), sports (running and cycling) and everything about posture / ergonomics."
     },
-    "Espanish": {
+    "spanish": {
       "h2": "Hola!!",
       "h3": "Un poco sobre mí...",
       "p": "Me considero una persona muy comprometida con todo lo que hago y con todos los desafíos que se me presentan. Además, me considero una persona muy compañera y que siempre aprovecha las oportunidades de aprender de sus compañeros tanto como aconsejarlos al mismo tiempo. Es por ello, que me motiva el trabajo en equipo y los entornos de colaboración. Me apasiona la naturaleza (principalmente la montaña), el deporte (running y ciclismo) y todo lo relacionado a la postura / ergonomía."
     }
   },
   "contentNavegation": {
-    "English": {
+    "english": {
       "projects": "Projects",
       "contact": "Contact",
       "resume": "Resume"
     },
-    "Espanish": {
+    "spanish": {
       "projects": "Proyectos",
       "contact": "Contacto",
       "resume": "Currículum"

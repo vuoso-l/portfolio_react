@@ -16,9 +16,9 @@ const VanillaJsProjects = () => {
 
   let languageCont;
 
-  language === "English"
-    ? (languageCont = translation.contentVanillaProjects.English)
-    : (languageCont = translation.contentVanillaProjects.Espanish);
+  language === "english"
+    ? (languageCont = translation.contentVanillaProjects.english)
+    : (languageCont = translation.contentVanillaProjects.spanish);
 
   return (
     <ContainerStyle theme={theme}>

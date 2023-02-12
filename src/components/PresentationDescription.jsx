@@ -13,9 +13,9 @@ const PresentationDescription = () => {
 
   let languageCont;
 
-  language === "English"
-    ? (languageCont = translation.contentDescription.English)
-    : (languageCont = translation.contentDescription.Espanish);
+  language === "english"
+    ? (languageCont = translation.contentDescription.english)
+    : (languageCont = translation.contentDescription.spanish);
 
   return (
     <DescriptionStyle theme={theme}>

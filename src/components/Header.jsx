@@ -15,9 +15,9 @@ const Header = () => {
 
   let languageCont;
 
-  language === "English"
-    ? (languageCont = translation.contentHeader.English)
-    : (languageCont = translation.contentHeader.Espanish);
+  language === "english"
+    ? (languageCont = translation.contentHeader.english)
+    : (languageCont = translation.contentHeader.spanish);
 
   return (
     <>

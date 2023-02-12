@@ -1,39 +1,39 @@
 {
   "contentHeader": {
-    "English": {
+    "english": {
       "h4": "FullStack Developer"
     },
-    "Espanish": {
+    "spanish": {
       "h4": "Desarrollador FullStack"
     }
   },
   "contentNavegation": {
-    "English": {
+    "english": {
       "projects": "Projects",
       "contact": "Contact",
       "resume": "Resume"
     },
-    "Espanish": {
+    "spanish": {
       "projects": "Proyectos",
       "contact": "Contacto",
       "resume": "Currículum"
     }
   },
   "contentSelect": {
-    "English": {
-      "english": "English",
-      "espanish": "Espanish"
+    "english": {
+      "english": "english",
+      "spanish": "Spanish"
     },
-    "Espanish": {
+    "spanish": {
       "english": "Inglés",
-      "espanish": "Español"
+      "spanish": "Español"
     }
   },
   "buttonDownload": {
-    "English": {
+    "english": {
       "btn": "Download CV"
     },
-    "Espanish": {
+    "spanish": {
       "btn": "Descargar CV"
     }
   }

@@ -10,10 +10,10 @@ const LanguageSelect = () => {
 
   return (
     <LanguageSelectStyle>
-      <button onClick={() => handleLanguage("English")}>
+      <button onClick={() => handleLanguage("english")}>
         <img src={uk} alt="united kingdom flag" />
       </button>
-      <button onClick={() => handleLanguage("Espanish")}>
+      <button onClick={() => handleLanguage("spanish")}>
         <img src={spain} alt="united kingdom flag" />
       </button>
     </LanguageSelectStyle>

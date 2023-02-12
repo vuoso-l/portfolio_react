@@ -16,9 +16,9 @@ const Navegation = () => {
 
   let languageCont;
 
-  language === "English"
-    ? (languageCont = translation.contentNavegation.English)
-    : (languageCont = translation.contentNavegation.Espanish);
+  language === "english"
+    ? (languageCont = translation.contentNavegation.english)
+    : (languageCont = translation.contentNavegation.spanish);
 
   return (
     <NavigationStyle theme={theme}>

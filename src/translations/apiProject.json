@@ -1,6 +1,6 @@
 {
   "contentApiProjects": {
-    "English": {
+    "english": {
       "h2": "API Rest projects",
       "DentalClinic": {
         "name": "API Rest Dental Clinic",
@@ -12,10 +12,10 @@
       },
       "apiUtn": {
         "name": "API Rest - UTN final project",
-        "p": "In this repository you can find the API Rest done in the Degree in full stack web programming with React Js provided by the National Technological University. The project consists in creating a CRUD for a library, where users can reserve books, return them and have a record of all the books they have. Each book and category can implement each function of the CRUD to complement the view of the users and to have the record of the available books. It is done with NodeJS, using API Rest and MySQL database."
+        "p": "In this repository you can find the API Rest done in the Degree in full stack web programming with React Js provided by the National Technological University. The project consists in creating a CRUD for a library, where users can reserve books, return them and have a record of all the books they have. Each book and category can implement each function of the CRUD to complement the view of the users and to have the record of the available books. It's done with NodeJS, using API Rest and MySQL database."
       }
     },
-    "Espanish": {
+    "spanish": {
       "h2": "Proyectos API Rest",
       "DentalClinic": {
         "name": "API Rest de Clínica odontológica",
