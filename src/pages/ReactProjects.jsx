@@ -9,6 +9,7 @@ import { CardContainer } from "../stylesComponents/BasicTagsStyle";
 import ThemeContext from "../context/ThemeContext";
 import translation from "../translations/reactProject.json";
 import LanguageContext from "../context/LanguageContext";
+import kanbanImg from "../assets/img/kanbanBoard.JPG";
 
 const ReactProjects = () => {
   const { theme } = useContext(ThemeContext);
@@ -39,6 +40,13 @@ const ReactProjects = () => {
             urlGitHub="https://github.com/vuoso-l/frontend_challenge_sec"
             urlImg="https://res.cloudinary.com/lupevu/image/upload/v1646409109/challenge_frontend-sec_djx70i.jpg"
             urlPage="https://frontend-challenge-sec.vercel.app/"
+          />
+          <CardItem
+            name={languageCont.BasicKanbanBoard.name}
+            p={languageCont.BasicKanbanBoard.p}
+            urlGitHub="https://github.com/vuoso-l/kanban-board"
+            urlImg={kanbanImg}
+            urlPage="https://kanban-board-challenge-andreani.vercel.app/"
           />
           <CardItem
             name={languageCont.MusicSearcher.name}

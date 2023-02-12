@@ -10,6 +10,10 @@
         "name": "Beverage sales website",
         "p": "This is a beverage sales website where a list is shown with the possibility of adding them to a shopping cart and removing them from it. Project technologies and tools: React Js. (useReducers, useContext, useState, useEffect), Styled-components, React-testing-library and Deploy in Vercel."
       },
+      "BasicKanbanBoard": {
+        "name": "Basic Kanban board",
+        "p": "This is a project that simulates a basic Kanban board where a task can be created, deleted and modified. The modification of the task status can be done through the drag and drop function as well as from the use of a selector. Project technologies and tools: React Js., Drag and drop function, CSS3, React-testing-library and deploy in Vercel."
+      },
       "MusicSearcher": {
         "name": "Music Searcher",
         "p": "This project is a work done in React, in which an API is consumed with Fetch and the results of the search loaded in a Form are shown. It's part of the exercises done in Jonathan Mircha's React course in his Youtube channel. Project technologies and tools: React Js. (useState, useEffect)."
@@ -24,6 +28,10 @@
       "FrontendChallengeSec": {
         "name": "Sitio web de venta de bebidas",
         "p": "Se trata de una web de ventas de bebidas donde se muestra un listado de las mismas con la posibilidad de poder ser agregadas a un carrito de compras y eliminadas del mismo. Tecnologías y herramientas de proyectos: React Js. (useReducers, useContext, useState, useEffect), Styled-components, React-testing-library y deploy en Vercel."
+      },
+      "BasicKanbanBoard": {
+        "name": "Tablero Kanban básico",
+        "p": "Se trata de un proyecto que simula un tablero Kanban básico donde se puede crear, eliminar y modificar una tarea. La modificación del status de la tarea puede realizarse a través de la función drag and drop como también desde el uso de un selector. Tecnologías y herramientas de proyectos: React Js., función Drag and drop, CSS3, React-testing-library y deploy en Vercel."
       },
       "MusicSearcher": {
         "name": "Buscador de música",
