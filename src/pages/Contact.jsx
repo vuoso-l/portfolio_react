@@ -34,7 +34,7 @@ const Contact = () => {
         <div>
           <SocialNetwork
             className="anchor"
-            url="https://wa.me/541169611987"
+            url="https://wa.me/542613408371"
             imgFontAw={imgWhatsapp}
             socNetName="Whatsapp"
           />
