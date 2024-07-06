@@ -10,32 +10,20 @@ export const ContactStyle = styled.div`
   div {
     ${displayFlex("flex", "column", "center", "center")};
     width: 100%;
-    padding: 25px 0px;
+    padding: 25px 0px 150px;
   }
   a {
-    padding: 30px 10px;
-    margin: 10px 5px;
+    padding: 30px 0px;
     color: ${({ theme }) =>
       theme === "light" ? color.lightParagraph : color.darkParagraph};
-    background-color: ${color.bgNavigationHome};
-    border-radius: 50%;
     font-size: 20px;
-    &:hover {
-      background-color: ${({ theme }) =>
-        theme === "light" ? color.bgLightButton : color.bgDarkButton};
-      color: ${({ theme }) =>
-        theme === "light" ? color.darkParagraph : color.lightParagraph};
+    :hover {
+      color: darkgoldenrod;
     }
   }
   @media ${device.laptop} {
-    div {
-      flex-direction: row;
-      padding: 50px 0px;
-    }
     a {
       font-size: 32px;
-      padding: 50px 10px;
-      margin: 20px 10px;
     }
   }
 `;

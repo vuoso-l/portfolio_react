@@ -10,7 +10,7 @@ import LanguageContext from "../context/LanguageContext";
 import { H3CardStyle } from "../stylesComponents/BasicTagsStyle";
 import { ContainerStyle } from "../stylesComponents/ContainerStyle";
 import { ResumeStyle } from "../stylesComponents/ResumeStyle";
-import { imgGithub } from "../styleAux/fontAwesoneIcon";
+import { ImgGithub } from "../styleAux/fontAwesoneIcon";
 
 const Resume = () => {
   const { theme } = useContext(ThemeContext);
@@ -48,7 +48,7 @@ const Resume = () => {
                 {languageCont.workExperience.p}
                 <SocialNetwork
                   url="https://github.com/vuoso-l/"
-                  imgFontAw={imgGithub}
+                  imgFontAw={<ImgGithub />}
                   socNetName="GitHub"
                 />
               </p>

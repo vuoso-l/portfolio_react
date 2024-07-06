@@ -1,6 +1,6 @@
 import { useContext } from "react";
 
-import { imgEmail, imgGithub, imgLinkedin } from "../styleAux/fontAwesoneIcon";
+import { ImgEmail, ImgGithub, ImgLinkedin } from "../styleAux/fontAwesoneIcon";
 import { FooterStyle } from "../stylesComponents/FooterStyle";
 import ThemeContext from "../context/ThemeContext";
 
@@ -13,15 +13,15 @@ const Footer = () => {
     <FooterStyle theme={theme}>
       <SocialNetwork
         url="https://www.linkedin.com/in/vuoso-l/"
-        imgFontAw={imgLinkedin}
+        imgFontAw={<ImgLinkedin />}
         socNetName="LinkedIn"
       />
       <SocialNetwork
         url="https://github.com/vuoso-l/"
-        imgFontAw={imgGithub}
+        imgFontAw={<ImgGithub />}
         socNetName="GitHub"
       />
-      <p>{imgEmail} vuosolucas@gmail.com</p>
+      <p>{<ImgEmail />} vuosolucas@gmail.com</p>
     </FooterStyle>
   );
 };

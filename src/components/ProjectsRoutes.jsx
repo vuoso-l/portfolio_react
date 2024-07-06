@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 
 import ApiProjects from "../pages/ApiProjects";
 import ReactProjects from "../pages/ReactProjects";
@@ -16,6 +16,8 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 const ProjectsRoutes = () => {
+  const { pathname } = useLocation();
+
   return (
     <div>
       <ThemeProvider>
@@ -32,7 +34,7 @@ const ProjectsRoutes = () => {
             <Route path="/dinamic-projects" element={<VanillaJsProjects />} />
             <Route path="*" element={<Error404 />} />
           </Routes>
-          <Footer />
+          {pathname !== "/contact" && <Footer />}
         </LanguageProvider>
       </ThemeProvider>
     </div>

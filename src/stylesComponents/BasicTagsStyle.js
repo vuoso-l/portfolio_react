@@ -13,7 +13,6 @@ export const H1Style = styled.h1`
 `;
 
 export const H2Style = styled.h2`
-  text-shadow: 4px 4px 4px grey;
   text-align: center;
   color: ${color.titleHeader};
 `;

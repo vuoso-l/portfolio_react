@@ -5,11 +5,12 @@ import ThemeContext from "../context/ThemeContext";
 import translation from "../translations/contact.json";
 import LanguageContext from "../context/LanguageContext";
 import {
-  imgGithub,
-  imgLinkedin,
-  imgWhatsapp,
+  ImgEmail,
+  ImgGithub,
+  ImgLinkedin,
+  ImgWhatsapp,
 } from "../styleAux/fontAwesoneIcon";
-import { H2CardStyle, H3CardStyle } from "../stylesComponents/BasicTagsStyle";
+import { H3CardStyle } from "../stylesComponents/BasicTagsStyle";
 import { ContactStyle } from "../stylesComponents/ContactStyle";
 import { ContainerStyle } from "../stylesComponents/ContainerStyle";
 
@@ -18,6 +19,7 @@ const Contact = () => {
   const { language } = useContext(LanguageContext);
 
   let languageCont;
+  const email = "vuosolucas@gmail.com";
 
   language === "english"
     ? (languageCont = translation.contentContact.english)
@@ -26,28 +28,33 @@ const Contact = () => {
   return (
     <ContainerStyle theme={theme}>
       <ContactStyle theme={theme}>
-        <H2CardStyle theme={theme}>{languageCont.h2}</H2CardStyle>
-        <H3CardStyle theme={theme}>{languageCont.h3}</H3CardStyle>
         <div>
           <SocialNetwork
-            className="anchor"
-            url="https://wa.me/542613408371"
-            imgFontAw={imgWhatsapp}
-            socNetName="Whatsapp"
+            url={`mailto:${email}`}
+            imgFontAw={<ImgEmail />}
+            socNetName="E-mail"
+            info={email}
           />
           <SocialNetwork
-            className="anchor"
             url="https://www.linkedin.com/in/vuoso-l/"
-            imgFontAw={imgLinkedin}
+            imgFontAw={<ImgLinkedin color="blue" />}
             socNetName="LinkedIn"
+            info="vuoso-l"
           />
           <SocialNetwork
-            className="anchor"
             url="https://github.com/vuoso-l/"
-            imgFontAw={imgGithub}
+            imgFontAw={<ImgGithub />}
             socNetName="GitHub"
+            info="vuoso-l"
+          />
+          <SocialNetwork
+            url="https://wa.me/542613408371"
+            imgFontAw={<ImgWhatsapp color="green" />}
+            socNetName="Whatsapp"
+            info="+54 261-340-8371"
           />
         </div>
+        <H3CardStyle theme={theme}>{languageCont.h3}</H3CardStyle>
       </ContactStyle>
     </ContainerStyle>
   );

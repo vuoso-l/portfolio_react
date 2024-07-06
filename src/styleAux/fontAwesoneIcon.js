@@ -12,9 +12,15 @@ export const imgSun = (
 export const imgMoon = (
   <FontAwesomeIcon style={{ color: "white" }} icon={faMoon} />
 );
-export const imgLinkedin = <FontAwesomeIcon icon={faLinkedin} />;
-export const imgGithub = <FontAwesomeIcon icon={faGithub} />;
-export const imgEmail = <FontAwesomeIcon icon={faEnvelope} />;
-export const imgWhatsapp = (
-  <FontAwesomeIcon style={{ color: "green" }} icon={faWhatsapp} />
+export const ImgLinkedin = ({ color = "black" }) => (
+  <FontAwesomeIcon style={{ color }} icon={faLinkedin} />
+);
+export const ImgGithub = ({ color = "black" }) => (
+  <FontAwesomeIcon style={{ color }} icon={faGithub} />
+);
+export const ImgEmail = ({ color = "black" }) => (
+  <FontAwesomeIcon style={{ color }} icon={faEnvelope} />
+);
+export const ImgWhatsapp = ({ color = "black" }) => (
+  <FontAwesomeIcon style={{ color }} icon={faWhatsapp} />
 );
