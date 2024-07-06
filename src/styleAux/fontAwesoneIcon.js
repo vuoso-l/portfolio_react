@@ -12,9 +12,7 @@ export const imgSun = (
 export const imgMoon = (
   <FontAwesomeIcon style={{ color: "white" }} icon={faMoon} />
 );
-export const imgLinkedin = (
-  <FontAwesomeIcon style={{ color: "blue" }} icon={faLinkedin} />
-);
+export const imgLinkedin = <FontAwesomeIcon icon={faLinkedin} />;
 export const imgGithub = <FontAwesomeIcon icon={faGithub} />;
 export const imgEmail = <FontAwesomeIcon icon={faEnvelope} />;
 export const imgWhatsapp = (

@@ -1,8 +1,6 @@
 import { useContext } from "react";
 
 import Card from "../components/Card";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 import { ContainerStyle } from "../stylesComponents/ContainerStyle";
 import ThemeContext from "../context/ThemeContext";
 import translation from "../translations/projects.json";
@@ -22,7 +20,6 @@ const Home = () => {
 
   return (
     <ContainerStyle theme={theme}>
-      <Header />
       <ProjectsStyle theme={theme}>
         <H2CardStyle theme={theme}>{languageCont.h2}</H2CardStyle>
         <div className="container">
@@ -52,7 +49,6 @@ const Home = () => {
           />
         </div>
       </ProjectsStyle>
-      <Footer />
     </ContainerStyle>
   );
 };

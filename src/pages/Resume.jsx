@@ -2,8 +2,6 @@ import { useContext } from "react";
 
 import AcademicComponent from "../components/AcademicComponent";
 import ExperienceComponent from "../components/ExperienceComponent";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 import SocialNetwork from "../components/SocialNetwork";
 import TechStackComponent from "../components/TechStackComponent";
 import ThemeContext from "../context/ThemeContext";
@@ -26,7 +24,6 @@ const Resume = () => {
 
   return (
     <ContainerStyle theme={theme}>
-      <Header />
       <ResumeStyle theme={theme}>
         <H2CardStyle theme={theme}>{languageCont.h2}</H2CardStyle>
         <p>{languageCont.p}</p>
@@ -115,7 +112,6 @@ const Resume = () => {
           </section>
         </div>
       </ResumeStyle>
-      <Footer />
     </ContainerStyle>
   );
 };

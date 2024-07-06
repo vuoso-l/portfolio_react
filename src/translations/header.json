@@ -9,11 +9,13 @@
   },
   "contentNavegation": {
     "english": {
+      "me": "About me",
       "projects": "Projects",
       "contact": "Contact",
       "resume": "Resume"
     },
     "spanish": {
+      "me": "Sobre mí",
       "projects": "Proyectos",
       "contact": "Contacto",
       "resume": "Currículum"

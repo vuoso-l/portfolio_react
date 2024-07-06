@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-import { device } from "../styleAux/deviceSize";
 import { color, displayFlex } from "../styleAux/theme";
 
 export const HomeStyle = styled.div`
@@ -11,8 +10,11 @@ export const HomeStyle = styled.div`
   margin: 50px 0px;
   background: ${({ theme }) =>
     theme === "light" ? color.bgLightPrimary : color.bgDarkPrimary};
-
-  @media ${device.tablet} {
-    flex-direction: row;
+  h2 {
+    padding-bottom: 15px;
+    margin: 1px 0;
+    color: ${({ theme }) =>
+      theme === "light" ? color.titleLightCard : color.titleDarkCard};
+    text-align: center;
   }
 `;

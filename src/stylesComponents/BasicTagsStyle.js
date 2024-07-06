@@ -57,16 +57,13 @@ export const ImgPresentation = styled.img`
   width: 80%;
   border-radius: 50%;
   @media ${device.mobileM} {
-    width: 80%;
-  }
-  @media ${device.mobileL} {
-    width: 70%;
-  }
-  @media ${device.tablet} {
     width: 50%;
   }
-  @media ${device.laptop} {
+  @media ${device.mobileL} {
     width: 40%;
+  }
+  @media ${device.tablet} {
+    width: 30%;
   }
 `;
 

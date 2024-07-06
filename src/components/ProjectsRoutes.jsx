@@ -12,11 +12,15 @@ import Contact from "../pages/Contact";
 import Resume from "../pages/Resume";
 import { LanguageProvider } from "../context/LanguageContext";
 
+import Header from "./Header";
+import Footer from "./Footer";
+
 const ProjectsRoutes = () => {
   return (
     <div>
       <ThemeProvider>
         <LanguageProvider>
+          <Header />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
@@ -28,6 +32,7 @@ const ProjectsRoutes = () => {
             <Route path="/dinamic-projects" element={<VanillaJsProjects />} />
             <Route path="*" element={<Error404 />} />
           </Routes>
+          <Footer />
         </LanguageProvider>
       </ThemeProvider>
     </div>

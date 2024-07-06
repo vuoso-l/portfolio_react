@@ -31,16 +31,16 @@ const Navegation = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
               <Link className="linkBase" to={"/"}>
-                Lucas Vuoso
+                {languageCont.me}
+              </Link>
+              <Link className="link" to={"/resume"}>
+                {languageCont.resume}
               </Link>
               <Link className="link" to={"/projects"}>
                 {languageCont.projects}
               </Link>
               <Link className="link" to={"/contact"}>
                 {languageCont.contact}
-              </Link>
-              <Link className="link" to={"/resume"}>
-                {languageCont.resume}
               </Link>
             </Nav>
           </Navbar.Collapse>

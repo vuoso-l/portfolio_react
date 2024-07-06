@@ -1,8 +1,6 @@
 import { useContext } from "react";
 
 import { ContainerStyle } from "../stylesComponents/ContainerStyle";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 import Presentation from "../components/Presentation";
 import ThemeContext from "../context/ThemeContext";
 
@@ -11,9 +9,7 @@ const Home = () => {
 
   return (
     <ContainerStyle theme={theme}>
-      <Header />
       <Presentation />
-      <Footer />
     </ContainerStyle>
   );
 };

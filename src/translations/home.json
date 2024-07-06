@@ -1,14 +1,12 @@
 {
   "contentDescription": {
     "english": {
-      "h2": "Hello!!",
-      "h3": "A bit about me...",
-      "p": "I consider myself a very dedicated person with everything I do and with all the challenges that come my way. In addition, I'm a very companionable person who always takes advantage of the opportunities to learn from my colleagues as well as to advise them at the same time. That is why I feel motivated by teamwork and collaboration environments. I'm passionate about nature (mainly mountains), sports (running and cycling) and everything about posture / ergonomics."
+      "h2": "ABOUT ME",
+      "p": "I am a dedicated and proactive individual who embraces every challenge with enthusiasm. I thrive in collaborative environments and believe in the power of teamwork. I am known for my ability to learn from my colleagues and provide valuable advice in return. My passions include nature, particularly mountains, sports such as running and cycling, and the study of posture and ergonomics."
     },
     "spanish": {
-      "h2": "Hola!!",
-      "h3": "Un poco sobre mí...",
-      "p": "Me considero una persona muy comprometida con todo lo que hago y con todos los desafíos que se me presentan. Además, me considero una persona muy compañera y que siempre aprovecha las oportunidades de aprender de sus compañeros tanto como aconsejarlos al mismo tiempo. Es por ello, que me motiva el trabajo en equipo y los entornos de colaboración. Me apasiona la naturaleza (principalmente la montaña), el deporte (running y ciclismo) y todo lo relacionado a la postura / ergonomía."
+      "h2": "SOBRE MÍ",
+      "p": "Soy una persona dedicada y proactiva que abraza cada desafío con entusiasmo. Prospero en entornos colaborativos y creo en el poder del trabajo en equipo. Me destacan mi habilidad para aprender de mis colegas y ofrecer consejos valiosos a cambio. Mis pasiones incluyen la naturaleza, especialmente las montañas, deportes como correr y ciclismo, y el estudio de la postura y ergonomía."
     }
   },
   "contentNavegation": {

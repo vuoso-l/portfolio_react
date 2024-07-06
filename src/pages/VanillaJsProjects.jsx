@@ -1,8 +1,6 @@
 import { useContext } from "react";
 
 import CardItem from "../components/CardItem";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 import { ContainerStyle } from "../stylesComponents/ContainerStyle";
 import CardTitle from "../components/CardTitle";
 import { CardContainer } from "../stylesComponents/BasicTagsStyle";
@@ -22,7 +20,6 @@ const VanillaJsProjects = () => {
 
   return (
     <ContainerStyle theme={theme}>
-      <Header />
       <main>
         <CardTitle title={languageCont.h2} nav="/projects" />
         <CardContainer>
@@ -42,7 +39,6 @@ const VanillaJsProjects = () => {
           />
         </CardContainer>
       </main>
-      <Footer />
     </ContainerStyle>
   );
 };

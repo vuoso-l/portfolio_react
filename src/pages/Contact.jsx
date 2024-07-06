@@ -1,7 +1,5 @@
 import { useContext } from "react";
 
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 import SocialNetwork from "../components/SocialNetwork";
 import ThemeContext from "../context/ThemeContext";
 import translation from "../translations/contact.json";
@@ -27,7 +25,6 @@ const Contact = () => {
 
   return (
     <ContainerStyle theme={theme}>
-      <Header />
       <ContactStyle theme={theme}>
         <H2CardStyle theme={theme}>{languageCont.h2}</H2CardStyle>
         <H3CardStyle theme={theme}>{languageCont.h3}</H3CardStyle>
@@ -52,7 +49,6 @@ const Contact = () => {
           />
         </div>
       </ContactStyle>
-      <Footer />
     </ContainerStyle>
   );
 };
