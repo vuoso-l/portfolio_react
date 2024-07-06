@@ -7,6 +7,7 @@ const FooterStyle = styled.footer`
   ${displayFlex("flex", "column", "center", "center")};
   width: 100%;
   max-width: 100%;
+  padding-top: 200px;
   a {
     padding: 10px 20px;
     color: ${({ theme }) =>

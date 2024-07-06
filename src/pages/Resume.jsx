@@ -7,7 +7,7 @@ import TechStackComponent from "../components/TechStackComponent";
 import ThemeContext from "../context/ThemeContext";
 import translation from "../translations/resume.json";
 import LanguageContext from "../context/LanguageContext";
-import { H2CardStyle, H3CardStyle } from "../stylesComponents/BasicTagsStyle";
+import { H3CardStyle } from "../stylesComponents/BasicTagsStyle";
 import { ContainerStyle } from "../stylesComponents/ContainerStyle";
 import { ResumeStyle } from "../stylesComponents/ResumeStyle";
 import { imgGithub } from "../styleAux/fontAwesoneIcon";
@@ -25,7 +25,6 @@ const Resume = () => {
   return (
     <ContainerStyle theme={theme}>
       <ResumeStyle theme={theme}>
-        <H2CardStyle theme={theme}>{languageCont.h2}</H2CardStyle>
         <p>{languageCont.p}</p>
         <div className="container">
           <section>
@@ -40,8 +39,8 @@ const Resume = () => {
                 p2={languageCont.workExperience.p2IS}
               />
               <ExperienceComponent
-                h5="Hospital Italiano de Buenos Aires"
-                h6="Aprender Salud, Programa Bajando de Peso"
+                h5="Hospital Italiano de Buenos Aires - Aprender Salud, Programa Bajando de Peso"
+                h6={languageCont.workExperience.subtitle}
                 p1={languageCont.workExperience.p1HI}
                 p2={languageCont.workExperience.p2HI}
               />
@@ -60,7 +59,7 @@ const Resume = () => {
             <div>
               <TechStackComponent
                 h4="Frontend"
-                p="Javascript | ReactJS | HTML5 | CSS3 / SCSS / Styled-components | UX - UI"
+                p="Javascript | React Js | React Native | Vue Js | HTML5 | CSS3 / SCSS / Styled-components | Bootstrap | UX - UI"
               />
               <TechStackComponent h4="Backend" p="Java - Spring Boot" />
               <TechStackComponent
@@ -70,7 +69,7 @@ const Resume = () => {
               <TechStackComponent
                 h4={languageCont.techStack.tools}
                 p="GitHub | Agile Methodologies (Scrum) | Heroku |
-            EsLint - Husky - Lint staged | Slack | VisualCode"
+            EsLint - Husky - Lint staged | Slack | Visual Studio Code"
               />
             </div>
           </section>
@@ -106,6 +105,7 @@ const Resume = () => {
           <section>
             <H3CardStyle theme={theme}>{languageCont.languages.h3}</H3CardStyle>
             <div>
+              <p>{languageCont.languages.spanish}</p>
               <p>{languageCont.languages.english}</p>
               <p>{languageCont.languages.italian}</p>
             </div>

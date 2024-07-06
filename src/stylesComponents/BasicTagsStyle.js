@@ -24,7 +24,6 @@ export const H2CardStyle = styled(H2Style)`
 `;
 
 export const H3CardStyle = styled.h3`
-  text-shadow: 4px 4px 4px grey;
   text-align: center;
   color: ${({ theme }) =>
     theme === "light" ? color.titleLightCard : color.titleDarkCard};

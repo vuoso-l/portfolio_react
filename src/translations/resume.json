@@ -1,69 +1,69 @@
 {
   "contentResume": {
     "english": {
-      "h2": "Resume",
-      "p": "I'm a Frontend Developer, graduated from UTN Buenos Aires (E-learning Center) as a fullStack developer with ReactJS and NodeJS. I've finished the first year of the Certified Tech Developer career sponsored by MercadoLibre, Globant and Digital House.",
+      "p": "I am a Frontend Developer, having graduated from UTN Buenos Aires (E-learning Center) as a Full Stack Developer with expertise in ReactJS and NodeJS. I have completed the first year of the Certified Tech Developer program, sponsored by MercadoLibre, Globant, and Digital House.",
       "techStack": {
         "h3": "Tech stack",
         "tools": "Tools"
       },
       "academicHistory": {
-        "h3": "Academic history",
+        "h3": "Education",
         "carrerDH": "Certified Tech Developer sponsored by MercadoLibre and Globant",
-        "dateDH": "July 2022",
+        "dateDH": "August 2021 - july 2022",
         "carrerUtn": "Degree in full stack web programming with React JS. Credential ID: CER-VSORA6FT-579548",
-        "dateUtn": "August 2021",
+        "dateUtn": "February 2021 - august 2021",
         "carrerUnqui": "Degree of Occupational Therapy",
-        "dateUnqui": "September 2019",
+        "dateUnqui": "April 2011 - September 2019",
         "carrerIsfd": "Physical Education Professor",
-        "dateIsfd": "February 2010",
+        "dateIsfd": "Marzo 2006 - february 2010",
         "credentialP": "URL to verify credential"
       },
       "languages": {
         "h3": "Languages",
+        "spanish": "Spanish - Native",
         "english": "English - B1 level",
         "italian": "Italian - A1 level"
       },
       "workExperience": {
         "h3": "Work experience",
-        "p": "In the section Projects you'll find the projects that I've done to date. If you want to see all my projects, please access to my",
-        "p1IS": "Tech stack: React.js · Redux toolkit · Bootstrap · JavaScript.",
-        "p2IS": "August 2022 to present",
-        "p1HI": "Stretching and training classes. Professional in therapeutic groups. Interdisciplinary team.",
-        "p2HI": "July 2010 to December 2021"
+        "p": "In the Projects section, you will find a selection of my completed works. For a comprehensive view of all my projects, please visit my ",
+        "subtitle": "Therapy groups - Stretching - concious training",
+        "p1HI": "July 2010 to December 2021",
+        "p2HI": "At Hospital Italiano de Buenos Aires, I contributed as a professional in therapeutic groups within the 'Aprender Salud, Programa Bajando de Peso'. Also my role involved conducting stretching and training classes designed to support weight loss and improve overall health. I collaborated with an interdisciplinary team of healthcare professionals to provide comprehensive care and support to participants, ensuring a holistic approach to their health and wellness."
       }
     },
     "spanish": {
-      "h2": "Currículum",
-      "p": "Soy Desarrollador Frontend, egresado de la UTN Buenos Aires (Centro de E-learning) como desarrollador fullStack con ReactJS y NodeJS. Actualmente estoy terminando el primer año de la carrera Certified Tech Developer patrocinada por MercadoLibre, Globant y Digital House.",
+      "p": "Soy un desarrollador Frontend, graduado de la UTN Buenos Aires (Centro de E-learning) como Desarrollador Full Stack con experiencia en ReactJS y NodeJS. He completado el primer año del programa Certified Tech Developer, patrocinado por MercadoLibre, Globant y Digital House.",
       "techStack": {
         "h3": "Tecnologías",
         "tools": "Herramientas"
       },
       "academicHistory": {
-        "h3": "Historial académico",
+        "h3": "Educación",
         "carrerDH": "Certified Tech Developer patrocinada por MercadoLibre y Globant",
-        "dateDH": "Julio 2022",
+        "dateDH": "Agosto 2021 - julio 2022",
         "carrerUtn": "Diplomatura en programación web full stack con React JS. ID de la credencial: CER-VSORA6FT-579548",
-        "dateUtn": "Agosto 2021",
+        "dateUtn": "Febrero - agosto 2021",
         "carrerUnqui": "Licenciatura en Terapia Ocupacional",
-        "dateUnqui": "Septiembre 2019",
+        "dateUnqui": "Abril 2011 - septiembre 2019",
         "carrerIsfd": "Profesor de Educación Física",
-        "dateIsfd": "Febrero 2010",
+        "dateIsfd": "Marzo 2006 - febrero 2010",
         "credentialP": "URL para corroborar la credencial"
       },
       "languages": {
         "h3": "Lenguajes",
+        "spanish": "Español - Nativo",
         "english": "Inglés - nivel B1",
         "italian": "Italiano - nivel A1"
       },
       "workExperience": {
         "h3": "Experiencia laboral",
-        "p": "En la sección Projects encontrarás los proyectos que he realizado hasta la fecha. Si querés ver todos mis proyectos, accedé a mi",
-        "p1IS": "Tech stack: React.js · Redux toolkit · Bootstrap · JavaScript.",
-        "p2IS": "Agosto 2022 a la actualidad",
-        "p1HI": "Clases de estiramiento y entrenamiento. Profesional en grupos terapéuticos. Equipo interdisciplinario.",
-        "p2HI": "Julio 2010 hasta diciembre 2021"
+        "p": "En la sección de Proyectos, encontrarás una selección de mis trabajos completados. Para ver todos mis proyectos de manera completa, por favor visita mi ",
+        "p1IS": "Agosto 2022 a la actualidad",
+        "p2IS": "En Imajine Studio, trabajo como Desarrollador Frontend, utilizando un tech stack robusto que incluye React Native, React.js, Vue.js, Redux Toolkit, JavaScript, Bootstrap y Firebase. Mis responsabilidades abarcan el desarrollo y mantenimiento de aplicaciones web dinámicas y amigables para el usuario. Colaboro estrechamente con equipos multifuncionales para ofrecer soluciones de software de alta calidad, asegurando un diseño responsivo y un rendimiento óptimo en diversos dispositivos y plataformas.",
+        "subtitle": "Grupos terapéuticos - Stretching - entrenamiento",
+        "p1HI": "Julio 2010 hasta diciembre 2021",
+        "p2HI": "En el Hospital Italiano de Buenos Aires, contribuí como profesional en grupos terapéuticos dentro del programa 'Aprender Salud, Programa Bajando de Peso'. Mi rol también implicaba llevar a cabo clases de estiramiento y entrenamiento diseñadas para apoyar la pérdida de peso y mejorar la salud general. Colaboré con un equipo interdisciplinario de profesionales de la salud para ofrecer atención integral y apoyo a los participantes, asegurando un enfoque holístico hacia su salud y bienestar."
       }
     }
   }
