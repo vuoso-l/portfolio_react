@@ -4,8 +4,8 @@ import { ButtonDownload } from "../stylesComponents/BasicTagsStyle";
 import ThemeContext from "../context/ThemeContext";
 import LanguageContext from "../context/LanguageContext";
 import translation from "../translations/header.json";
-import cvSpanish from "../assets/files/CV-Lucas_Vuoso.pdf";
-import cvEnglish from "../assets/files/Resume-Lucas_Vuoso.pdf";
+import cvSpanish from "../assets/files/CV_Lucas_Vuoso.pdf";
+import cvEnglish from "../assets/files/Resume_Lucas_Vuoso.pdf";
 
 const BtnDownload = () => {
   const { theme } = useContext(ThemeContext);
