@@ -1,15 +1,17 @@
 import styled from "styled-components";
 
 import { device } from "../styleAux/deviceSize";
-import { displayFlex, backgroundHeader } from "../styleAux/theme";
+import { displayFlex } from "../styleAux/theme";
 
 export const HeaderStyle = styled.header`
   ${displayFlex("flex", "column", "space-around", "center")};
   width: 100%;
   height: 200px;
-  ${backgroundHeader(
-    "https://res.cloudinary.com/lupevu/image/upload/v1643460719/portada_linkedin2_hvcxj4.jpg",
-  )};
+  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
   label {
     width: 40px;
     height: 40px;
@@ -25,6 +27,10 @@ export const HeaderStyle = styled.header`
   }
   @media ${device.tablet} {
     height: 250px;
+    img {
+      height: 250px;
+      object-fit: unset;
+    }
     label {
       width: 55px;
       height: 55px;
@@ -33,9 +39,15 @@ export const HeaderStyle = styled.header`
   }
   @media ${device.laptop} {
     height: 300px;
+    img {
+      height: 300px;
+    }
   }
   @media ${device.laptopM} {
     height: 350px;
+    img {
+      height: 350px;
+    }
     label {
       width: 70px;
       height: 70px;

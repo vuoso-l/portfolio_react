@@ -1,28 +1,24 @@
-import { useContext } from "react";
-
-import LanguageContext from "../context/LanguageContext";
-import { H2Style, H4Style } from "../stylesComponents/BasicTagsStyle";
 import { HeaderStyle } from "../stylesComponents/HeaderStyle";
-import translation from "../translations/header.json";
+import bannerImage from "../assets/img/banner.png";
+import mobileBannerImage from "../assets/img/mobile_banner.png";
+import { size } from "../styleAux/deviceSize";
+import useWindowWidth from "../hooks/useWindowWidth";
 
 import Navegation from "./Navegation";
 
 const Header = () => {
-  const { language } = useContext(LanguageContext);
+  const windowWidth = useWindowWidth();
+  const isMinorTablet = windowWidth <= size.tablet;
 
-  let languageCont;
-
-  language === "english"
-    ? (languageCont = translation.contentHeader.english)
-    : (languageCont = translation.contentHeader.spanish);
+  console.log({ windowWidth, size: size.tablet });
 
   return (
     <>
       <HeaderStyle>
-        <div>
-          <H2Style>Lucas Vuoso</H2Style>
-          <H4Style>{languageCont.h4}</H4Style>
-        </div>
+        <img
+          src={isMinorTablet ? mobileBannerImage : bannerImage}
+          alt="Banner image"
+        />
         {/* Commented this code because I don´t use it now */}
         {/* <label theme={theme}>
           {theme === "light" ? imgMoon : imgSun}
